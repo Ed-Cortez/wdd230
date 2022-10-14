@@ -29,6 +29,5 @@ document.getElementsByTagName("button")[0].addEventListener('click', () => {
     document.getElementsByTagName("label")[0].style.color = "red";
   }
 
-  
 
 });
