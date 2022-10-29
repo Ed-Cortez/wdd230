@@ -200,3 +200,27 @@
     display: none;
   }
 
+/* Discover Page Style */
+#images {
+  margin: 5px 5px 5px 5px;
+  grid-template-columns: 1fr;
+}
+
+#images img {
+  width: 100%;
+}
+
+#images div {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.difference {
+  background-color: rgb(27, 27, 74);
+  color: azure;
+  text-align: center;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.5em;
+}

@@ -95,3 +95,58 @@ footer .copyright .separation {
 
   }
   
+
+   /* medium layout discovery page  */
+   #images {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.difference {
+    background-color: rgb(27, 27, 74);
+    color: azure;
+    text-align: center;
+ 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2.5em;
+}
+
+#images img {
+    width: 100%;
+}
+
+div #r_mountain {
+    grid-column:1/2;
+}
+
+div #porter_park {
+    grid-column: 1/2;
+}
+
+div #shops {
+    grid-column: 1/2;
+}
+
+div #centinneal_carousel {
+    grid-column: 2/3;
+}
+
+div #rexburg_rapids {
+    grid-column: 2/3;
+}
+
+div #smith_park {
+    grid-column: 2/3;
+}
+
+div #flood_museum {
+    grid-column: 3/4;
+}
+
+div #sand_dunes {
+    grid-column: 3/4;
+}
+
+div #splash_pad {
+    grid-column: 3/4;
+}

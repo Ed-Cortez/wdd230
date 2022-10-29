@@ -132,7 +132,7 @@ footer .copyright .last-uptdated {
 nav {
 
 	/* background-color: #EABDA8; Desert Sand */
-  background-color: #1E2D2F; /* Charleston Green */
+  background-color: #14074c; /* Charleston Green */
  /* background-color: #A85751; /* Redwood */
 	text-align: left;
 
@@ -209,25 +209,9 @@ nav a {
 
 
 nav a:hover {
-  background-color: #EDDBC0; /* Desert Sand */
-  color: #972D07; /* Rufous */
-
+  background-color: #EDDBC0; 
+  color: #972D07; 
 }
-
-nav a:active {
-  background::active: #972D07; /* Rufous */
-}
-
-
-/************ BUTTONS ************/
-
-/** Hamburger Button Toggle with NO 'X' **/
-#hamburgerBtn span:nth-child(1) {display: block;}
-#hamburgerBtn span:nth-child(2) {display: none;}
-
-/** Hamburger Button Toggle with 'X' **/
-#hamburgerBtn.open span:nth-child(1) {display: none;}
-#hamburgerBtn.open span:nth-child(2) {display: block;}
 
 nav button {
 
@@ -252,7 +236,7 @@ nav button:hover {
 
 
 button {
-  background-color: #679436; /* Maximum Green */
+  background-color: #4d3694; /* Maximum Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -284,25 +268,6 @@ button a {
 }
 
 
-/**** Logo Header box ****/
-
-.logo-box {
-  display: block;
-  padding:  15px 15px 10px 15px;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  align-content: center;
-}
-/** .logo-box {
-  display: grid;
-  padding:  15px 15px 10px 15px;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  align-content: center;
-} **/
-
 
 .headerDate {
   display: block;
@@ -316,58 +281,13 @@ button a {
 
 
 
-/**  Header **/
-header {
-  text-align: center;
-  align-items: center;
-  align-content: center;
-}
-
-
-.banner-pic-home {
-  display: none;
-}
-
-.heroImgMed{
-  display: block;
-  max-width:100%;
-}
-
-.welcomeBanner {
-  display: none;
-}
-
-
-
-.homeBox a {color: #A85751; /* Redwood */}
-
-.persona1 {
-  padding: 0;
-  margin: 0 0 0 5px;
-}
-
-.homeBox hr {
-  border:none;
-  height: 20px;
- 	width: 80%;
-
-	margin-top: 0;
-	border-bottom: 1px solid #A85751
-
-
-}
-
-
-/*  Color Scheme page */
-
-
 
 /* BODY & MAIN */
 body {
   background-color: white;
   font-family: 'Darker Grotesque', sans-serif;
   font-size: 16px;
-  color: #1E2D2F; /* Charleston Green */
+  color: #13606a; /* Charleston Green */
   padding: 0;
   margin: 0;
 
@@ -495,21 +415,11 @@ a {color: #679436; /* Maximum Green */}
   top: 75%;
   left: 10%;
 }
-/* .heroBtn {
-  width: 125px;
-  display: flex;
-  position: absolute;
-  top: 40%;
-  right: 10%;
-  color: white;
-  background-color: #A85751;
-} */
+
 
 .eventBox {
   text-align: center;
 }
-
-/****** Weather Elements *******/
 
 .weatherMain {
   display: grid;
@@ -560,7 +470,7 @@ a {color: #679436; /* Maximum Green */}
   height: auto;
 }
 .spotlight {
-  /** SPOTLIGHT - shows on mobile**/
+
   border: 1px solid white;
   padding: 2vw;
   align-items: center;
@@ -577,12 +487,6 @@ a {color: #679436; /* Maximum Green */}
   margin: 0;
 }
 
-/* .newViewLogo {
-  padding: 10px;
-  background-color: white;
-  border-radius: 5px;
-  border: white solid;
-} */
 
 .smallP {
   font-size: 12px;
@@ -624,45 +528,6 @@ a {color: #679436; /* Maximum Green */}
 .headBtnHide {
   display: none;
 }
-
-
-/**** FOOTER ****/
-
-footer {
-  display: block;
-  background-color: #1E2D2F; /* Charleston Green */
-  text-align: left;
-  color: white;
-  padding: 20px 10px 60px 0;
-}
-
-footer a {
-  color: #EDDBC0; /* rgb(237, 219, 192) */
-  font-size: 12px;
-  padding: 20px 10px 60px 0;
-  margin: 0 0 5px 45px;
-}
-
-footer p {
-  margin: 0 0 5px 45px;
-  font-family: 'Jost', sans-serif;
-  font-size: 12px;
-}
-footer h6 {
-  margin: 45px;
-  color: black;
-}
-
-footer hr{
-  margin: 20px 45px;
-  border-color: grey;
-}
-
-footer img {
-  margin: 0 0 5px 0;
-}
-
-
 
 
 
@@ -719,7 +584,7 @@ table, th, td {
 }
 
 .firstary {
-  background-color: #972D07; /* Rufous */;
+  background-color: #972D07; /* Rufous */
   color: white;
 }
 
@@ -741,4 +606,72 @@ table, th, td {
 .fiveary  {
   background-color: #1E2D2F; /* Charleston Green */
   color: white;
+}
+
+
+ /* discovery page large screen style */
+   
+ #images {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.difference {
+  background-color: rgb(27, 27, 74);
+  color: azure;
+  text-align: center;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 2.5em;
+}
+
+#images img {
+  width: 100%;
+}
+
+.shrink img {
+  transition: 1s ease;
+}
+  
+.shrink img:hover{
+-webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+transition: 1s ease;
+}
+
+div #r_mountain {
+  grid-column:1/2;
+}
+
+div #porter_park {
+  grid-column: 1/2;
+}
+
+div #shops {
+  grid-column: 1/2;
+}
+
+div #centinneal_carousel {
+  grid-column: 2/3;
+}
+
+div #rexburg_rapids {
+  grid-column: 2/3;
+}
+
+div #smith_park {
+  grid-column: 2/3;
+}
+
+div #flood_museum {
+  grid-column: 3/4;
+}
+
+div #sand_dunes {
+  grid-column: 3/4;
+}
+
+div #splash_pad {
+  grid-column: 3/4;
 }
