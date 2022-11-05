@@ -24,3 +24,12 @@ function toggleMenu() {
 }
 
 hamburger.addEventListener('click', toggleMenu);
+
+
+// Hidden value on form
+const hiddenVal = document.getElementById("hidden-data-value");
+try {
+    hiddenVal.setAttribute("value",date);
+} catch (error) {
+    console.log(error)
+}

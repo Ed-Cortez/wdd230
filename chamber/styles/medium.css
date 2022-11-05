@@ -1,152 +1,182 @@
 @media only screen and (min-width: 35rem) {
 
 
-.headings h1 {
-    font-size: 1.7rem;
-}
+    .headings h1 {
+        font-size: 1.7rem;
+    }
+    
+    .chamber_text {
+        font-size: 1rem;
+    }
+      
+    nav ul li a {
+        font-size: 1.2rem;
+    }
+      
+    .logo svg {
+        width: 6rem;
+    }
+      
+    .social svg {
+        width: 1.8rem;
+        height: auto;
+    }
+      
+    .date {
+        font-size: 1.2rem;
+    }
+      
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+      
+    main .hero {
+        grid-column: 1/4;
+        grid-row: 1;
+    }
+      
+    main .news {
+        grid-column: 1/4;
+        grid-row: 2;
+    }
+      
+    main .spotlights {
+        grid-column: 1/4;
+        grid-row: 3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0.5rem;
+    }
+      
+    main .join {
+        display: inherit;
+        grid-column: 1/4;
+        grid-row: 4;
+    }
+      
+    main .event {
+        grid-column: 1/3;
+        grid-row: 5;
+    }
+      
+    footer {
+        grid-template-columns: 1fr 1fr;
+        font-size: 1.2rem;
+    }
+      
+    footer .logo {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+      
+    footer .copyright {
+        grid-column: span 2;
+    }
+      
+    footer .copyright p {
+        display: inline-block;
+        font-size: 1.2rem;
+    }
+      
+    footer .copyright .last-uptdated {
+        display: block;
+        margin-top: -0.2rem;
+    }
+      
+    footer .copyright .separation {
+        display: inline;
+        font-size: 1.7rem;
+    }
+    
+    
+    
+      }
+      
+    
+       /* medium layout discovery page  */
+       #images {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .difference {
+        background-color: rgb(27, 27, 74);
+        color: azure;
+        text-align: center;
+     
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    
+    #images img {
+        width: 100%;
+    }
+    
+    div #r_mountain {
+        grid-column:1/2;
+    }
+    
+    div #porter_park {
+        grid-column: 1/2;
+    }
+    
+    div #shops {
+        grid-column: 1/2;
+    }
+    
+    div #centinneal_carousel {
+        grid-column: 2/3;
+    }
+    
+    div #rexburg_rapids {
+        grid-column: 2/3;
+    }
+    
+    div #smith_park {
+        grid-column: 2/3;
+    }
+    
+    div #flood_museum {
+        grid-column: 3/4;
+    }
+    
+    div #sand_dunes {
+        grid-column: 3/4;
+    }
+    
+    div #splash_pad {
+        grid-column: 3/4;
+    }
 
-.chamber_text {
-    font-size: 1rem;
-}
-  
-nav ul li a {
-    font-size: 1.2rem;
-}
-  
-.logo svg {
-    width: 6rem;
-}
-  
-.social svg {
-    width: 1.8rem;
-    height: auto;
-}
-  
-.date {
-    font-size: 1.2rem;
-}
-  
-main {
-    grid-template-columns: 1fr 1fr 1fr;
-}
-  
-main .hero {
-    grid-column: 1/4;
-    grid-row: 1;
-}
-  
-main .news {
-    grid-column: 1/4;
-    grid-row: 2;
-}
-  
-main .spotlights {
-    grid-column: 1/4;
-    grid-row: 3;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 0.5rem;
-}
-  
-main .join {
-    display: inherit;
-    grid-column: 1/4;
-    grid-row: 4;
-}
-  
-main .event {
-    grid-column: 1/3;
-    grid-row: 5;
-}
-  
-footer {
-    grid-template-columns: 1fr 1fr;
-    font-size: 1.2rem;
-}
-  
-footer .logo {
-    display: flex;
-    flex-direction: row;
-    text-align: left;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-  
-footer .copyright {
-    grid-column: span 2;
-}
-  
-footer .copyright p {
-    display: inline-block;
-    font-size: 1.2rem;
-}
-  
-footer .copyright .last-uptdated {
-    display: block;
-    margin-top: -0.2rem;
-}
-  
-footer .copyright .separation {
-    display: inline;
-    font-size: 1.7rem;
-}
+    
 
-
-
-  }
-  
-
-   /* medium layout discovery page  */
-   #images {
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.difference {
-    background-color: rgb(27, 27, 74);
-    color: azure;
-    text-align: center;
- 
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 2.5em;
-}
-
-#images img {
-    width: 100%;
-}
-
-div #r_mountain {
-    grid-column:1/2;
-}
-
-div #porter_park {
-    grid-column: 1/2;
-}
-
-div #shops {
-    grid-column: 1/2;
-}
-
-div #centinneal_carousel {
-    grid-column: 2/3;
-}
-
-div #rexburg_rapids {
-    grid-column: 2/3;
-}
-
-div #smith_park {
-    grid-column: 2/3;
-}
-
-div #flood_museum {
-    grid-column: 3/4;
-}
-
-div #sand_dunes {
-    grid-column: 3/4;
-}
-
-div #splash_pad {
-    grid-column: 3/4;
-}
+    .joinpage {
+        display: grid;
+      
+        grid-template-columns:  1fr;
+        align-items: center;
+      }
+      
+    .form {
+        grid-column: 1/2;
+          margin-top: 5%;
+          background: none;
+          border: none;
+          padding: 0;
+          margin-left: 10%;
+        }
+        
+        .membership-prices {
+          grid-column: 1/2;
+          height: auto;
+          border: none;
+          background: none;
+          padding: 0;
+          margin: 0;
+          width: 80%;
+          text-align: center;
+        
+        }
