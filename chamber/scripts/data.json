@@ -1,0 +1,90 @@
+{
+    "businesses": [
+
+        {
+            "businessname": "Millhollow Restaurant",
+            "logo": "https://rexburgchamber.org/wp-content/uploads/2022/05/millows.png",
+            "address": "48 S 1st E Rexburg, ID 83440",
+            "phone": "208-356-0847",
+            "website": "https://www.millhollowrestaurant.com/"
+        },
+        {
+            "businessname": "Righteous Slice",
+            "logo": "https://rexburgchamber.org/wp-content/uploads/2022/05/rightous.png",
+            "address": "175 W 200 S #100 Rexburg, ID 83440",
+            "phone": "500-333-9532",
+            "website": "https://www.righteousslice.com/"
+        },
+        {
+            "businessname": "Upper Valley Veterinary Clinic",
+            "logo": "https://rexburgchamber.org/wp-content/uploads/2022/05/upper-vallet-vet.png",
+            "address": "840 N 2nd E Ste. 1 Rexburg, ID 83440",
+            "phone": "208-356-4271",
+            "website": "https://www.uppervalleyvet.com/"
+        },
+        {
+            "businessname": "Rexburg Commons",
+            "logo": "https://rexburgchamber.org/wp-content/uploads/2022/05/rexburg-commons.jpg",
+            "address": "510 Terra Vista Dr. Rexburg, ID 83440",
+            "phone": "208-557-9495",
+            "website": "https://rexburgcommons.com/"
+        },
+        {
+            "businessname": "Blackfoot Communications",
+            "logo": "https://rexburgchamber.org/wp-content/uploads/2022/05/blackfoot.jpg",
+            "address": "110 E main St. St. Anthony, ID 83445",
+            "phone": "208-624-7120",
+            "website": "https://www.blackfoot.com/"
+        },
+        {
+            "businessname": "Papa Murphy’s",
+            "logo": "https://rexburgchamber.org/wp-content/uploads/2022/05/papa.png",
+            "address": "64 N 2nd E Rexburg, ID 83440",
+            "phone": "208-356-8900",
+            "website": "https://www.papamurphys.com/"
+        },
+
+        {
+            "businessname": "Call Oil",
+            "logo": "https://rexburgchamber.org/wp-content/uploads/2022/05/cail-oil4.png",
+            "address": "499 S Yellowstone HWY. Rexburg, ID 83440",
+            "phone": "208-356-3006",
+            "website": "http://callsinclair.co/"
+        },
+        {
+            "businessname": "AMET Inc.",
+            "logo": "https://rexburgchamber.org/wp-content/uploads/2022/05/AMET-Logo-resized-02.png",
+            "address": "355 Dividend Dr. Rexburg, ID 83440",
+            "phone": "208-356-7274",
+            "website": "https://ametinc.com"
+        },
+        {
+            "businessname": "Alphagraphics – Rexburg",
+            "logo": "https://rexburgchamber.org/wp-content/uploads/2022/10/alphagraphics-logo.webp",
+            "address": "80 S. 2nd West Rexburg, ID 83440",
+            "phone": "208-356-0170",
+            "website": "https://www.alphagraphics.com/us-idaho-rexburg-us643"
+        },
+        {
+            "businessname": "IF Signs",
+            "logo": "https://rexburgchamber.org/wp-content/uploads/2022/05/ifsigns.jpg",
+            "address": "1255 E 17th St Idaho Falls, ID 83404",
+            "phone": "208-524-4124",
+            "website": "https://ifsigns.com"
+        },
+        {
+            "businessname": "Standard Journal",
+            "logo": "https://rexburgchamber.org/wp-content/uploads/2020/04/rexburg-standard-journal.png",
+            "address": "869 S Yelowstone HWY. STE 801 Rexburg, ID 83440",
+            "phone": "208-356-5441",
+            "website": "https://www.rexburgstandardjournal.com/"
+        },
+        {
+            "businessname": "VitaLife Infusions: Mobile IV Therapy",
+            "logo": "https://rexburgchamber.org/wp-content/uploads/2022/10/vitalifelogo-09-4-e1649629387373-287x300-1.png",
+            "address": "147 N 2nd E Rexburg, ID 83440",
+            "phone": "208-219-7755",
+            "website": "https://www.vitalifemobileiv.com"
+        }
+    ]
+}

@@ -105,7 +105,6 @@
   
   
   
-  }
     
   
   
@@ -705,5 +704,40 @@
     margin: 0;
     width: 85%;
     text-align: center;
-  
   }
+
+
+}
+
+@media screen and (min-width: 1500px) {
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+             
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.cards section {
+  border: 1px solid navy;
+  background-color: rgb(12, 53, 90);
+  padding: 30px;
+  text-align: center;
+  width: 90%;
+  
+}
+
+.cards section p {
+  color: white;
+}
+
+.jsontable {
+  display: none;
+}
+
+#directory img {
+  width: 90%;
+  box-shadow: 5px 10px 8px 5px #292727;
+}
+}
