@@ -1,4 +1,4 @@
-const requestURL = 'https://brian-ober.github.io/wdd230/chamber/directory/business.json';
+const requestURL = 'https://ed-cortez.github.io/wdd230/chamber/scripts/business.json';
 
 async function getBusinesses(requestURL) {
     const response = await fetch(requestURL);
