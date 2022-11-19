@@ -5,7 +5,7 @@ const captionDesc = document.querySelector('figcaption');
 const windSpeed = document.querySelector('.wind-speed');
 const windChill = document.querySelector('.wind-chill');
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=-11.9797&lon=-76.9769&units=metric&appid=dc623eb500ac341d4a193ec56d78ed2d';
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=-12.0463&lon=-77.042&units=metric&appid=dc623eb500ac341d4a193ec56d78ed2d';
 
 async function apiFetch() {
     try {
