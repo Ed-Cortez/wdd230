@@ -470,3 +470,27 @@ margin-right: 0;
   margin-left: 30%;
 }
 
+/* ---------- weather box ---------- */
+div.weatherBox {
+  color: white;
+  
+  text-align: center;
+  align-items: center;
+  display: grid;
+  background-color: #001D3D;
+}
+
+div.weatherBox h2 {
+
+  text-align: left;
+}
+
+div.weatherBox p {
+  font-size: 30px;
+  color: white;
+}
+
+img.weather-icon {
+  width: 30%;
+}
+

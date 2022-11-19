@@ -58,17 +58,26 @@
     </div>
 
     <div class="homeBox weatherBox">
-      <h3 class="weatherH3">Weather</h3>
-      <div class="weatherMain">
-        <p class="wIcon">🌤</p>
-        <p class="temp">45&#8451;</p>
-        <p class="wStatus"><strong>Partly Cloudy</strong></p>
+ 
+      <div class="weatherBox">
+        <h2>Weather</h2>
+        <hr>
+        <p><span class="current-temp"></span>&deg;C</p>
+        <figure>
+            <img src="" alt="" class="weather-icon">
+            <figcaption></figcaption>
+        </figure>
+        <hr>
+        <table>
+            <tr>
+                <td>Wind Speed: <span class="wind-speed"></span> m/s</td>
+            </tr>
+            <tr>
+                <td>Wind Chill: <span class="wind-chill"></span> m/s</td>
+            </tr>
+        </table>
       </div>
-      <hr>
-      <div class="weatherMinor">
-        <p>Wind Speed: 2.5 km/h</p>
-        <p>Wind Chill: N/A</p>
-      </div>
+    
     </div>
 
       <div class="homeBox newsBox">
@@ -131,5 +140,7 @@
       </div>
     </footer>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/weatherapi.js"></script>
   </body>
 </html>
+
