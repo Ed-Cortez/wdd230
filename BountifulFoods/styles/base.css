@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lobster&family=Roboto:ital@1&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+
+
+/* Header style */
+.headercontainer {
+  position:relative;
+  width: 100%;
+}
+.headerh1 {
+    -webkit-text-stroke: 1px rgb(7, 33, 92); 
+  position:absolute;
+  text-align: center;
+  font-size: 50px;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 0;
+  bottom: 5%;
+  color: aliceblue;
+  font-family: 'Lobster', cursive;
+}
+ .mainimg {
+  width: 100%;
+} 
+
+/* Navigation style */
+nav button {
+  margin: 0.2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: rgb(32, 32, 32);
+}
+
+nav {
+  background-color:rgb(10, 41, 90);
+  width:100%;
+
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-right: 20%;
+  height: 100%;
+}
+
+nav ul li a {
+    font-size: 30px;
+    font-family: 'Roboto';
+  display: block;
+  padding: 1rem 2vw;
+  text-decoration: none;
+  color: rgb(231, 228, 228);
+  font-weight: bold;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+nav li a.current {
+  background-color: rgb(8, 67, 112);
+  color: white;
+}
+nav ul li a:hover {
+  background-color:rgb(5, 11, 61);
+  color: white;
+}
+
+nav ul {
+  display: none;
+}
+
+nav ul.open {
+  display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+/* Date style */
+.date {
+  font-size: 30px;
+  text-align: center;
+  padding: 1rem;
+}
+
+ .indexbody, .freshbody, .aboutbody {
+ display: grid;
+ grid-template-columns: 1fr;
+ 
+} 
+.index, .fresh, .about {
+  display: grid;
+  column-gap: 1em;
+  max-width: 100%;
+} 
+.abouth1 {
+  margin-left: 5%;
+}
+
+/*info container style*/
+
+body {
+    background-color: rgba(34, 88, 168, 0.278);
+}
+
+.vegcontainer,
+.fruitcontainer, .cabcontainer {
+  border:solid 2px rgb(13, 38, 95);
+  max-width: 100%;   
+  margin: 10px;
+  padding: .5rem;
+  background-color: rgba(35, 109, 138, 0.622);
+}
+.vegimg, .vegp {
+ margin-left: 10%;
+}
+
+.orderinfo {
+  margin-top: 30px;
+  border: solid 2px  rgb(13, 38, 95);
+  padding: .5rem;
+  background-color: rgba(35, 109, 138, 0.622);
+}
+
+
+.fruith2, .vegh2, .cabh2 {
+ text-align:center;
+ margin:-1px 0 0 0;
+ padding: 1rem;
+ width: 90.5%;
+}
+.infoh2 {
+  background-color: rgb(13, 38, 95);
+  background-color: rgba(35, 109, 138, 0.622);
+  color: white;
+  padding: 1rem;
+  margin:-1px 0 0 0;
+}
+.userName {
+  font-size: 1.17em;
+}
+
+/* weather style */
+.weather, .forecastinfo, 
+.forecastinfo3 {
+  border: solid 2px rgb(13, 38, 95);
+  background-color: rgba(35, 109, 138, 0.622);
+  text-align: center;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  justify-content: center;
+}
+.forecastinfo3 {
+  margin-right: 15px; 
+  margin-left: 15px;
+}
+.weather {
+  margin-left: 15px;
+  margin-right: 15px; 
+}
+.forecastinfo, .forecastinfo3 {
+  padding-top: 27px;
+  margin-left: 10px;
+  
+}
+.forecastcontainer {
+  display:flex;
+  flex-direction: row;
+   border: solid 2px rgb(13, 38, 95);
+   background-color: rgba(35, 109, 138, 0.622);
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+ 
+figure {
+  margin:0;
+}
+.temptxt {
+  margin: 2px;
+}
+.f1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.f2 {
+  margin-top: 10px;
+}
+/* smoothie styles*/
+.freshbutton {
+background-color: rgb(13, 38, 95);
+font-size: 1.5rem;
+color: white;
+padding: 0.75rem 1.5rem;
+margin: 0 0 2rem 1.5rem;
+border: none;
+border-radius: 15px;
+}
+
+.freshbutton:hover {
+    background-color:rgb(17, 69, 84);
+    color: white;
+  }
+
+.smoothie {
+  border: solid 2px rgb(13, 38, 95);
+  background-color: rgba(35, 109, 138, 0.622);
+  border-radius: 15px;
+  text-align: center;
+  padding: 1rem;
+  margin: 15px 9px;
+}
+ /* footer styles*/
+.footer {
+  border-top: solid 2px rgb(13, 38, 95);
+  background-color: rgb(10, 41, 90);
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding: 2rem;
+  max-width: 100%;
+  color: aliceblue;
+}
+.contactfooter p {
+  margin: 1px;
+  margin-right: 6px;
+}
+
+/* form style */
+form {
+  padding: 0.5rem;
+}
+form fieldset {
+
+  border: 1px solid rgb(13, 38, 95);
+  background-color: rgba(35, 109, 138, 0.622);
+
+  border-radius: 10px;
+  padding: 0.5rem 5%;
+}
+form legend {
+  color: #00244c;
+  margin: 0 ;
+  padding: 0 0.5rem;
+}
+form label.top {
+  display: block;
+  padding-top: 1rem;
+  color:#00244c;
+  font-size: 15px;
+  font-size: 0.8rem;
+}
+form label.top input,
+textarea {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #00244c;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color:  rgb(2, 20, 36);
+  width: 90%;
+  max-width: 20rem;
+  background-color: aliceblue;
+
+}
+.submitBtn {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#txt {
+  margin-top: 15px;
+  margin-bottom: 37px;
+}
+.orderinfo {
+  margin-bottom: 37px;
+  margin-top: 45px;
+  max-width: 90%;
+  margin-left: 9px;
+}
+ /* about page style */
+ .about {
+  display: grid;
+  grid-gap: 1rem; 
+ }
+
+ .abouth2 {
+  text-align: center;
+ }
+ .historicalinfo {  
+  border: solid 2px rgb(13, 38, 95);
+  background-color: rgba(35, 109, 138, 0.622);
+  margin-left: 1rem;
+  margin-top: .5rem;
+  padding: .8rem;
+  width: 80%; 
+ }
+ .historyp {
+  line-height: 1.7rem;
+ }
+ .contactinfo {
+  border: solid 2px rgb(13, 38, 95);
+  background-color: rgba(35, 109, 138, 0.622);
+  margin-left: 13%;
+  padding: 1.5rem;
+  width: 60%;
+  text-align: center;
+}
+.aboutthanks {
+   border: solid 2px rgb(13, 38, 95);
+   background-color: rgba(35, 109, 138, 0.622);
+   text-align:center;
+   margin: .5rem;
+   width: 64%;
+   height: 102%;
+   margin-left: 17%;
+}
+.map {
+  margin-top: 7px;
+  width: 60%;  
+}
+iframe {
+  width: 100%;
+   margin-left: 35%;
+   height: 100%;
+} 
+.resource {
+  margin-left: 35px;
+}
