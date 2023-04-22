@@ -4,7 +4,7 @@
     justify-content: center;
 }
 
-.photo_bar h2{
+.photo_bar h1{
     color: aliceblue;
     font-size: 1.8em;
     margin: auto;
@@ -28,6 +28,10 @@ header {
 main{
     max-width: 500px;
     margin: auto;
+}
+
+main h2 {
+    font-size: 1.8em;
 }
 
 footer{
