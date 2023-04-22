@@ -1,0 +1,58 @@
+
+
+
+.photo_bar{
+    display: flex;
+    justify-content: center;
+}
+
+.photo_bar h2{
+    color: aliceblue;
+    font-size: 1.8em;
+    margin: auto;
+}
+
+img{
+    margin: 5px 15px;
+}
+
+
+header {
+    max-width: 500px;
+    height: 7em;
+    margin: auto;
+    background-color: rgb(22, 22, 58);
+    border-radius: 10px 10px;
+    box-shadow: 0.5px 2px 10px;
+    padding: 0px 80px;
+    
+}
+
+
+main{
+    
+    max-width: 500px;
+    margin: auto;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    height: 7em;
+    margin: auto;
+    background-color: rgb(22, 22, 58);
+    border-radius: 10px 10px;
+    box-shadow: 1px 2px 10px;
+    padding: 0px 80px;
+    
+}
+
+.footer_bar h3, h4 {
+    color: aliceblue;
+    text-align: center;
+}
+
+
+
