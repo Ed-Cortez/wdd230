@@ -48,6 +48,7 @@ footer{
 }
 
 .footer_bar h3, h4 {
+    font-size: 15px;
     color: aliceblue;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
