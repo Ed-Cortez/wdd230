@@ -1,6 +1,6 @@
-// Select the HTML element to manipulate
+
 const date = document.querySelector("#date");
-// Try to complete the method with options
+
 try {
 	const options = {
 		weekday: "short",
