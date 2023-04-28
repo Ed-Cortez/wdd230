@@ -1,3 +1,15 @@
+/* 
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fanwood+Text:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,600;1,300&family=Roboto:wght@100;300&display=swap');
+
+
+Google Fonts Chose in the API:
+font-family: 'Comfortaa', cursive;
+font-family: 'Fanwood Text', serif;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Roboto', sans-serif;
+
+*/
 
 .photo_bar{
     display: flex;
