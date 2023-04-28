@@ -1,11 +1,11 @@
 body {
-    background-color: #72778b;
+    background-color: #f4f4f4;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
 }
 
 header, footer {
-    background-color: #171f5a;
+    background-color: rgb(22, 22, 58);
     color: white;
     padding: .2rem 1rem;
     text-align: center;
@@ -33,7 +33,7 @@ h2 {
     font-weight: 400;
 }
 h3 {
-    background-color: #294970;
+    background-color: rgb(22, 22, 58);
     color: white;
     padding: 1rem;
     padding-top: 1.5rem;
@@ -43,16 +43,16 @@ h3 {
 
 main {
     display: grid;
-    padding: 1.5rem 1rem;
-    padding-bottom: 0;
-    color: #272A3F;
+    padding: 1.5rem;
+    color: rgb(22, 22, 58);
 }
 section {
-    background-color: #d2e5ea;
-    box-shadow: 2px 2px 4px 2px #52486A;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 4px 2px #19191b;
     max-width: 100%;
     border-radius: 1rem;
-    margin-bottom: 1.5rem;
+    margin: 1.5rem;
 }
 
 section img {
@@ -63,7 +63,8 @@ section img {
 }
 
 .content {
-    padding: .2rem 1rem;
+    margin: 1rem;
+    background-color: #ffffff;
 }
 
 a {
@@ -71,11 +72,9 @@ a {
 }
 
 a:visited {
-    color: #7D5A87;
+    color: #0d0f46;
 }
 
-section {
-    margin-right: 3%;
-}
+
 
 
