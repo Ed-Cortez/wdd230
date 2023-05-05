@@ -1,0 +1,31 @@
+@media only screen and (min-width: 32.5em) {
+
+    header {
+
+        max-width: 1000px;
+    }
+
+    footer {
+        max-width: 1000px;
+        font-size: 1em;
+    }
+
+
+    nav {
+		flex-direction: row;
+        max-width: 1000px;
+
+	}
+
+    
+}
+
+
+@media only screen and (min-width: 39.5em) {
+
+
+    .scenarios {
+        display: flex;
+    }
+
+}
