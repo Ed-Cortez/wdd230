@@ -1,3 +1,9 @@
+
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
 header h1{
     color: aliceblue;
     font-size: 3em;
@@ -66,4 +72,119 @@ footer {
     font-family:'Times New Roman', Times, serif;
     font-size: 13px;
     text-align: center;
+}
+
+
+main {
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    background-color: #bdc6cc;
+    max-width: 980px;
+}
+
+main h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+.headings {
+    margin: auto;
+    padding: 1% 10%;
+    background-color: #ffffff;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+
+.paragraph {
+    margin: 2% auto;
+    padding: 1.5% 10%;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    border-radius: 5px;
+    max-width: 70%;
+}
+
+/* Color Schema*/
+
+table{
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    margin: 1% 5%;
+    font-size: 0.8em;
+}
+
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+th{
+    background-color: #ffffff;
+}
+td{
+    width: 20%;
+    height: 3em;
+}
+.primary{
+    background-color: #242325;
+    color: white;
+}
+.secondary{
+    background-color: #dc965a;
+}
+.accent1{
+    background-color: #bbb891;
+}
+.accent2{
+    background-color: #b3b3b3;
+}
+.accent3{
+    background-color: #c8c8c8;
+}
+
+
+
+#example{
+    background-color: #c8c8c8;
+    margin: 0% 8% 4% 8%;
+    border-color: 5px 5px #242325;
+}
+
+.sub-paragraph {
+    background-color: #dc965a;
+    color: #242325;
+    padding: 1.5%;
+    margin: auto;
+    max-width: 60%;
+    font-family: 'Lobster', cursive;
+    border-radius: 5px;
+}
+
+.ex-head{
+    color: #ffffff;
+    background-color: #242325;
+    font-family: 'Lobster', cursive;
+    padding: 1.5% 0;
+}
+
+.ex-paragraph{
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+
+#ex-white{
+    background-color: #bbb891;
 }
