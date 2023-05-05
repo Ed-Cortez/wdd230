@@ -16,12 +16,11 @@
         max-width: 1000px;
 
 	}
-
     
 }
 
 
-@media only screen and (min-width: 39.5em) {
+@media only screen and (min-width: 52em) {
 
 
     .scenarios {
