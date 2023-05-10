@@ -91,12 +91,13 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 
 nav button {
-    width: 100%;
+    width: 93%;
     background-color: #bbb891;
     border: none;
     font-size: 2rem;
     color: #555;
     text-align: end;
+    
 }
 
 
