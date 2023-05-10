@@ -1,27 +1,63 @@
 
 /* 35rem is also 560px when basefont is 16px */
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 34rem) {
     
     nav button {
         display: none;
- 
     }
 
+    .social {        
+        text-align: end;
+    }
+
+    .headings {
+        margin-bottom: 1.5%;
+    }
+    
+    .social svg {
+        width: 45px;
+    }
+    
 
     nav ul#primaryNav {
-    
         display: flex;
         justify-content: center;
         border-left: 1px solid rgba(0, 0, 0, 0.3);
-     
     }
 
 
     nav ul li a {
         border: none;
-   
     }
 
+
+    #logo {
+        max-width: 150px;
+        margin-left: 4%;
+     }
+   
+   
+   
+     header h1 {
+       letter-spacing: 3pt;
+       margin-bottom: 0;
+       font-size: 3rem;
+       font-family: Lobster, cursive;
+     }
+
+   
+     header h2 {
+       margin-top: 0;
+       font-size: 1rem;
+       font-family:  Roboto, sans-serif;
+     }
+   
+
+     .social a {
+        padding: 0 6px;
+     }
     
 }
+
+
 
