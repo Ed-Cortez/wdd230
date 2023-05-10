@@ -50,42 +50,16 @@ header {
 
 
   .social {
-	text-align: center;
-    padding: 2% 5%;
+    text-align: end;
+    padding: 2% 8% 2% 2%;
     flex-grow: 1;
     
 }
 
 .social svg {
-	width: 35px;
+	width: 30px;
 	height: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -161,4 +135,6 @@ nav ul.open {
 #hamburgerBtn.open span:nth-child(2) {
     display: block;
 }
+
+
 

@@ -1,6 +1,6 @@
 
 /* 35rem is also 560px when basefont is 16px */
-@media only screen and (min-width: 34rem) {
+@media only screen and (min-width: 32rem) {
     
     nav button {
         display: none;
@@ -15,7 +15,7 @@
     }
     
     .social svg {
-        width: 45px;
+        width: 40px;
     }
     
 
