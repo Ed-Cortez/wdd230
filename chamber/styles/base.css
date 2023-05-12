@@ -138,3 +138,61 @@ nav ul.open {
 
 
 
+
+
+  /* MAIN */
+main {
+    grid-template-columns: 1fr ;
+}
+
+
+
+
+  main {
+    display: grid;
+    padding: .1rem;
+    
+}
+
+.event, .wheater, .join, .release {
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 7px 1px #19191b;
+ 
+
+    margin: .3rem;
+    height: 160px;
+}
+
+
+.spotlight-boxes {
+
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 7px 1px #19191b;
+    max-width: 100%;
+    padding: 2%;
+    margin: .3rem;
+}
+
+.spotlight, .spotlight3 {
+    border: solid #000  1px;
+    justify-content: center;
+    background-color: #efc8c8;
+    max-width: 100%;
+    height: 100px;
+    margin: 0.2rem;
+
+}
+
+.spotlight3 {
+    display: none;
+}
+
+
+.hero {
+
+}
+
+
+
