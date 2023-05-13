@@ -150,37 +150,37 @@ main {
 
   main {
     display: grid;
-    padding: .1rem;
+    padding: .5rem;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     
 }
 
 .event, .wheater, .join, .release {
     justify-content: center;
     background-color: #ffffff;
-    box-shadow: 1px 1px 7px 1px #19191b;
- 
+    border: 1px solid black;
+    margin: 0rem;
+    height: 260px;
 
-    margin: .3rem;
-    height: 160px;
 }
 
 
 .spotlight-boxes {
-
+    border: 1px solid black;
     justify-content: center;
     background-color: #ffffff;
-    box-shadow: 1px 1px 7px 1px #19191b;
     max-width: 100%;
     padding: 2%;
-    margin: .3rem;
+    
 }
 
 .spotlight, .spotlight3 {
     border: solid #000  1px;
     justify-content: center;
-    background-color: #efc8c8;
+    background-color: #160202;
     max-width: 100%;
-    height: 100px;
+    height: 150px;
     margin: 0.2rem;
 
 }
@@ -190,9 +190,86 @@ main {
 }
 
 
-.hero {
 
-}
+/* FOOOOOOOTEEEEEERR*/
+
+    footer {
+        background-color: #242325;
+        width: 100%;
+        height: 100%;
+        color: #eee;     
+        display: flex;
+        margin: 0;
+        flex-direction: column;      
+        align-items: center;
+
+    }
+
+    #logo_footer {
+        margin: 2% 0 0 0;
+        max-width: 90px;
+    }
+
+    .footer_bar {
+        text-align: center;
+        font-size: 0.5rem;
+        
+    }
+
+    .footer_bar h3 {
+        padding-top: 12px;
+        border-top: 1px solid rgb(255, 255, 255);
+
+    }
+
+    .footer_chamber h1 {
+        text-align: center;
+        letter-spacing: 3pt;
+        margin: 0;
+        font-size: 1.5rem;
+        font-family: Lobster, cursive;
+    
+      }
+    
+      .footer_chamber h2 {
+        text-align: center;
+        margin-top: 0;
+        font-size: .6rem;
+        font-family:  Roboto, sans-serif;
+      }
+
+      .footer_chamber p {
+        padding: 0 10%;
+        text-align: center;
+        font-size: 0.6rem;
+        font-family:  Roboto, sans-serif;
+
+      }
 
 
+      #placeholder {
+        max-width: 16px;
+      }
 
+      .contact_info {
+        text-align: center;
+      }
+
+      .contact_info p {
+        
+        margin: 1.5% 0;
+        font-size: 0.6rem;
+        font-family:  Roboto, sans-serif;
+      }
+
+
+      .contact_info a {
+        font-size: 0.6rem;
+        font-family:  Roboto, sans-serif;
+      text-decoration: none;
+      color: #eee;
+    }
+
+    .contact_info a:hover {
+        color: #bbb891;
+    }
