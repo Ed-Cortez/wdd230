@@ -116,6 +116,14 @@
         font-size: 1rem;
     }
 
+    .hero p {
+        font-size: 3rem; 
+    }
+
+
+    .hero button {
+        max-height: 40%;        
+    }
 
     /* FOOOOOOOTEEEEEERR*/
 
