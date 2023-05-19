@@ -125,6 +125,48 @@
         max-height: 40%;        
     }
 
+
+    .evert {
+        display: block;
+
+    }
+
+    .event h1 {
+        padding: 10% 0 0 0 ;    
+    }
+
+    .event p{
+        font-size: 1rem;
+        padding: 3% 8%;   
+        margin: 0; 
+    }
+
+    .event h2{
+        font-size: 1.1rem;
+        padding: 0 5%;   
+        margin: 0; 
+    }
+
+    .wheater {
+        text-align: center;
+        font-size: 0.9rem;
+        font-family: Lobster, cursive;
+        background-color: #c8c8c8;
+        margin: 0;
+    }
+    
+    .wheater h1 {
+        padding: 3%;
+    }
+    
+    .wheater img {
+        margin:0;
+        max-width: 100px;
+    }
+
+
+
+
     /* FOOOOOOOTEEEEEERR*/
 
     

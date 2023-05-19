@@ -41,12 +41,7 @@
         border: 0.5px solid black ;
     }
 
-    .event {
-        grid-column: 1/2;
-        grid-row: 1/2;
-       
-        
-    }
+
 
 
     .hero {
@@ -98,6 +93,57 @@
 
 
 
+    .event {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        display: block;
+    }
+
+    .event h1{
+        font-size: 1.8rem;
+        padding: 16% 0 5% 0; 
+        margin: 0;  
+    }
+
+    .event p{
+        font-size: 1rem;
+        padding: 5%;   
+        margin: 0; 
+    }
+
+    .event h2{
+        font-size: 1.1rem;
+        padding: 5%;   
+        margin: 0; 
+    }
+
+
+    #moreinfo {
+        text-align: center;
+        font-size: 1rem;
+        padding: 0 5%;   
+        margin: 0; 
+    }
+
+
+    .wheater {
+        display: block;
+        text-align: center;
+        font-size: 0.9rem;
+        font-family: Lobster, cursive;
+        background-color: #c8c8c8;
+        margin: 0;
+    }
+
+    .wheater h1 {
+        padding: 8%;
+    }
+    
+    
+    .wheater img {
+        margin:0;
+        max-width: 100px;
+    }
 
 /*        FOOOOOOTER    
 

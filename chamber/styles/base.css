@@ -232,6 +232,72 @@ main {
 }
 
 
+
+
+.event {
+    background-image: linear-gradient(rgba(5, 7, 12, 0.35), rgba(5, 7, 12, 0.35)), url(../images/event.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.event h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #f2f2f2;
+    font-family: Lobster, cursive;
+    text-shadow: 5px 5px 5px #000;
+    padding: 12% 0 0 0 ;    
+}
+
+.event h2 {
+    text-align: center;
+    font-size: .8rem;
+    color: #f2f2f2;
+    font-family:  Roboto, sans-serif;
+    text-shadow: 2px 2px 2px #000;
+    padding: 0 0 0 0 ;    
+}
+
+.event p {
+    text-align: center;
+    font-size: .8rem;
+    color: #f2f2f2;
+    font-family:  Roboto, sans-serif;
+    text-shadow: 2px 2px 2px #000;
+    padding: 0 5% 0 5% ;   
+    margin: 0; 
+}
+
+
+#moreinfo {
+    text-align: center;
+    font-size: .8rem;
+    color: #f2f2f2;
+    font-family:  Roboto, sans-serif;
+    text-shadow: 2px 2px 2px #000;
+    padding: 0 5% 0 5% ;   
+    margin: 0; 
+}
+
+
+
+.wheater {
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: Lobster, cursive;
+    background-color: #c8c8c8;
+    margin: 0;
+}
+
+.wheater h1 {
+    padding: 3%;
+}
+
+.wheater img {
+    margin:0;
+    max-width: 100px;
+}
+
 /* FOOOOOOOTEEEEEERR*/
 
     footer {
