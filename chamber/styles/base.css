@@ -321,6 +321,7 @@ main {
     #logo_footer {
         margin: 2% 0 0 0;
         max-width: 90px;
+        padding-top: 5%;
     }
 
     .footer_bar {
