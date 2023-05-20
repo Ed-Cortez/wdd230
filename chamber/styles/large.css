@@ -152,7 +152,7 @@
     }
 
     .release h1 {
-        padding-top: 9%;
+        padding-top: 6%;
     }
 
     .release p {
@@ -190,6 +190,14 @@
         max-height: 90px;
         padding: 1%;
         
+    }
+
+
+    .join a {
+
+        padding: 3% 18%;
+        font-size: 1.4rem;
+      
     }
 
 /*        FOOOOOOTER    */

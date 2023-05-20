@@ -166,7 +166,7 @@
 
 
     .release h1 {
-        padding-top: 5%;
+        padding-top: 3%;
     }
 
     .release p {
@@ -258,6 +258,18 @@
         max-width: 26px;
 
       }
+
+
+      .join a {
+
+        padding: 2% 18%;
+        font-size: 1.4rem;
+      
+    }
+
+    .join p {
+        font-size: 1rem;
+    }
 
 
 }
