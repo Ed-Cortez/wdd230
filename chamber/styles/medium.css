@@ -2,9 +2,10 @@
 /* 35rem is also 560px when basefont is 16px */
 @media only screen and (min-width: 32rem) {
     
-    nav button {
-        display: none;
-    }
+
+
+
+
 
     .social {        
         text-align: end;
@@ -19,16 +20,7 @@
     }
     
 
-    nav ul#primaryNav {
-        display: flex;
-        justify-content: center;
-        border-left: 1px solid rgba(0, 0, 0, 0.3);
-    }
 
-
-    nav ul li a {
-        border: none;
-    }
 
 
     #logo {
