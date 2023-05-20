@@ -113,7 +113,7 @@
 
     .event h2{
         font-size: 1.1rem;
-        padding: 5%;   
+        padding: 0 5%;   
         margin: 0; 
     }
 
@@ -121,7 +121,7 @@
     #moreinfo {
         text-align: center;
         font-size: 1rem;
-        padding: 0 5%;   
+        padding: 0 2%;   
         margin: 0; 
     }
 

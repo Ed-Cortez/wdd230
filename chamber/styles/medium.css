@@ -259,7 +259,11 @@
 
       }
 
-
+      .event h2{
+        font-size: 1rem;
+        padding: 0 5%;   
+        margin: 0; 
+    }
       .join a {
 
         padding: 2% 18%;
