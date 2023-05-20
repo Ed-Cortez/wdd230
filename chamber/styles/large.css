@@ -145,6 +145,53 @@
         max-width: 100px;
     }
 
+
+    .release {
+        display: block;
+        margin: 0;
+    }
+
+    .release h1 {
+        padding-top: 9%;
+    }
+
+    .release p {
+        text-align: center;
+        font-size: 1rem;
+        padding: 2% 10%;
+    }
+
+    .spotlight3 p {
+        display: flex;
+        justify-content: center;
+    
+        font-family:  Roboto, sans-serif;
+        margin: 0;
+        font-size: 0.65rem;
+        padding: 10px 10px 3px 0;
+        text-align: center;
+    }    
+
+    .spotlight p, .spotlight3 p {
+        font-size: 0.9rem;
+        padding: 10px 16px 3px 10px;
+        
+    }
+
+    #city_contact, #city_brochure, #city_food {
+        padding: 1%;
+        font-size: 0.8rem;
+    
+    }
+
+    .spotlight-icon {
+        justify-self: center;
+        margin:0;
+        max-height: 90px;
+        padding: 1%;
+        
+    }
+
 /*        FOOOOOOTER    */
 
 
