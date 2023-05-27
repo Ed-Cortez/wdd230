@@ -28,10 +28,15 @@
 
 
     <!-- HEADER HERE -->
-        <header>
+        <header class="clearfix">
 
-        <img id="logo" src="images/lima-logo.png" alt="logo">
-            
+         <picture class="lima-logo"> 
+            <source media="(max-width: 500px)" srcset="images/lima-logo-100.webp">
+            <source media="(max-width: 5000px)" srcset="images/lima-logo-150.webp">
+
+            <img src="images/lima-logo-100.webp" alt="logo">
+
+         </picture>  
         <div class="headings">
             <h1>Lima</h1>
                 <h2>Chamber of Commerce</h2>
@@ -93,6 +98,7 @@
 
 
     <div class="hero">
+        
         <p>Let Lima captivate you</p>
         
         <button>Join Us</button>
@@ -110,8 +116,24 @@
 
 
     <div class="wheater">
+
         <h1>Wheater</h1>
         <img src="images/wheater.png" alt="Clouds">
+        <div class="weatherBox">
+      
+      
+            <p>24°C</p>
+
+         
+            <table>
+                <tbody><tr>
+                    <td>Wind Speed: <span class="wind-speed">6.17</span> m/s</td>
+                </tr>
+                <tr>
+                    <td>Wind Chill: <span class="wind-chill">N/A</span> m/s</td>
+                </tr>
+            </tbody></table>
+          </div>
     </div>
 
 
@@ -182,7 +204,13 @@
     <footer>
 
     <div class="section_footer">
-        <img id="logo_footer" src="images/lima-logo.png" alt="logo">
+        <picture class="lima-logo"> 
+            <source media="(max-width: 500px)" srcset="images/lima-logo-100.webp">
+            <source media="(max-width: 5000px)" srcset="images/lima-logo-150.webp">
+
+            <img src="images/lima-logo-100.webp" alt="logo">
+
+         </picture>  
 
         <div class="footer_chamber">
             <h1>Lima</h1>
