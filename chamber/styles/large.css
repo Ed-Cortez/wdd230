@@ -251,9 +251,19 @@ nav button{
 
 
 .discover_paragraph {
-    padding: 13% 5%;
+    padding: 0% 5%;
     text-align: center;
     
+}
+
+
+ .discover_subtittle {
+    text-align: center;
+    padding: 10% 5% 0% 5%;
+    width: 100%;
+    font-size: 2rem;
+
+
 }
 
 
