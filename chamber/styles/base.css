@@ -551,3 +551,39 @@ main {
 
 
 
+
+    /* Discover */
+
+
+    #discover {
+        display: flex;
+  
+        flex-direction: column;
+    }
+
+
+    .lazyimages1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .lazyimages2 {
+        text-align: center;
+
+    }
+
+
+
+    .discover_paragraph {
+        padding: 5% 10%;
+        
+        text-align: center;
+        
+    }
+
+    .discover_subtittle {
+        margin: 0;
+        text-align: center;
+    }
+    
+

@@ -225,11 +225,36 @@ nav button{
       
     }
 
-/*        FOOOOOOTER    */
 
 
     
+.lazyimages1 {
+    align-self: end;
+}
 
+.lazyimages2 {
+    align-self: start;
+}
+
+.lazyimages1 picture {
+    float: right;
+    padding: 3% 2% 3% 5%;
+    text-align: center;
+}
+
+.lazyimages2 picture {
+    float: left;
+    padding: 3% 5% 3% 2%;
+    text-align: center;
+}
+
+
+
+.discover_paragraph {
+    padding: 13% 5%;
+    text-align: center;
+    
+}
 
 
 
