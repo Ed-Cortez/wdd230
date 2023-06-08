@@ -4,14 +4,14 @@ table {
     margin: 0 auto;
     font-family: ubuntu;
     text-align: center;
-    background-color:rgb(20, 0, 83);
-    color: aliceblue;
+    background-color:rgb(250, 250, 250);
+    color: black;
 }
 tr:nth-child(even) {
-    background-color:rgb(62, 92, 150);
+    background-color:rgb(212, 218, 207);
 }
-tbody tr:first-child {
-    background-color: rgb(6, 0, 128);
+tbody tr:nth-child(2) {
+    background-color: rgb(150, 150, 162);
     color: rgb(255, 255, 255);
 }
 thead th {
@@ -35,19 +35,3 @@ tbody tr:nth-child(6) {
     font-style: italic;
 }
 
-#special {
-    font-style: normal;
-}
-#active {
-    background-color: rgba(194, 105, 105, 0.505);
-    color: gainsboro;
-}
-
-#active:hover {
-    background-color: aliceblue;
-    color: black;
-}
-
-#total {
-    background-color: rgb(69, 70, 13);
-}
