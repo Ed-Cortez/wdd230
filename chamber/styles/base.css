@@ -454,6 +454,14 @@ nav ul.open {
 
 }
 
+#ultima-visita {
+  align-self: center;
+  text-align: center;
+  color: #eee;
+  background-color: #242325;
+  padding: .5%;
+  width: 50%;
+}
 
 
 
