@@ -50,7 +50,7 @@
 
      /* MAIN */
 
-     main {
+     main .main-page {
         grid-template-columns: 1fr 1fr;
 
     }
@@ -274,7 +274,31 @@
     .lazyimages1 img:hover {box-shadow: 0 0 50px #333;}
     .lazyimages2 img:hover {box-shadow: 0 0 50px #333;}
 
+
+
+/* JOIN FORM */
+
+  form input.submitBtn:hover {
+    background-color: #FFD60A;
+  }
+
+  .joinpage {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .membership-prices {
+    padding: 35% 5% 0 5%;
+  }
+
+  .prices h3 {
+    font-size: 2rem;
+  }
+  .prices h4 {
+    font-size: 1.5rem;
+  }
+
+  .prices span {
+    font-size: 1rem;
+  }
 }
-
-
-

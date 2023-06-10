@@ -82,8 +82,8 @@
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
         <ul id="primaryNav">
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Discover</a></li>
-            <li><a href="join.html  ">Join</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Join</a></li>
             <li><a href="#">Span</a></li>   
             <li><a href="#">Span</a></li>
             <li><a href="#">Span</a></li>  
@@ -91,109 +91,120 @@
   
         </ul>
     </nav>
-        
-    <!-- CONTENT HERE -->
-        <main id="discover">
-
-
-        <div class="lazyimages1">
-            <picture>
-                <source media="(max-width: 500px)" srcset="images/catacumbas_280.jpg">
-                <source media="(max-width: 1000px)" srcset="images/catacumbas_480.jpg">
-                <source media="(max-width: 5000px)" srcset="images/catacumbas.jpg">
-            <img class="" src="images/catacumbas_280.jpg" loading="lazy" alt="Catacombs">
-             </picture>
-             <p class="discover_subtittle">Catacombs of Lima</p>
-
-            <p class="discover_paragraph">
-                The catacombs or crypts of Lima are considered the largest in the entire continent and also the best preserved. Its vast extension is only surpassed by the famous Catacombs of Paris.
-            </p>
-        </div>
-
-        <div class="lazyimages2">
-            <picture>
-                <source media="(max-width: 500px)" srcset="images/catedral_280.jpg">
-                <source media="(max-width: 1000px)" srcset="images/catedral_480.jpg">
-                <source media="(max-width: 5000px)" srcset="images/catedral.jpg">
-            <img class="" src="images/catedral_280.jpg" loading="lazy" alt="Catredal">
-            </picture>
-            <p class="discover_subtittle">Main Catredal of Lima</p>
-
-            <p class="discover_paragraph">
-                It has fifteen chapels inside, one of which houses the remains of the founder of Lima, Francisco Pizarro. It also houses an important museum with a valuable collection of religious art. It is considered to be the most important church in Peru and is one of the most outstanding in the capital.
-            </p>
-        </div>
-
-        <div class="lazyimages1">
-            <picture>
-                <source media="(max-width: 500px)" srcset="images/faro_280.jpg" >
-                <source media="(max-width: 1000px)" srcset="images/faro_480.jpg">
-                <source media="(max-width: 5000px)" srcset="images/faro.jpg">
-            <img class="" src="images/faro_280.jpg" loading="lazy" alt="Lighthouse">
-            </picture>
-            <p class="discover_subtittle">Lighthouse of Lima</p>
-
-            <p class="discover_paragraph">
-                The Lighthouse of Lima, also known as the Faro de la Marina, is a historic lighthouse located in Lima, Peru. It is situated in the Chorrillos district, overlooking the Pacific Ocean. The lighthouse has played an important role in guiding ships along the Peruvian coast for many years.
-            </p>
-        </div>
-
-        <div class="lazyimages2">
-            <picture>
-                <source media="(max-width: 500px)" srcset="images/aguas_280.jpg">
-                <source media="(max-width: 1000px)" srcset="images/aguas_480.jpg">
-                <source media="(max-width: 5000px)" srcset="images/aguas.jpg">
-            <img class="" src="images/aguas_280.jpg" loading="lazy" alt="Circuit">
-            </picture>
-            <p class="discover_subtittle">Magic Water Circuit</p>
-            <p class="discover_paragraph">
-                The Magic Water Circuit in Parque de la Reserva was verified by the Guinness Book of World Records as the largest complex of fountains in the world in a public park. It consists of 13 water fountains that combine music, colored lights and laser effects for a must visit for families in Lima.
-            </p>
-           
-        </div>
-
-        </main>
     
+        <body>
 
-    <!-- FOOTER HERE -->
+    <main class="joinpage">
+        
 
+        
+            <div class="form">
+                <form method="get" action="#"> 
+
+                
+                    <fieldset>
+                        <legend class="tittle_field">Information</legend>
+                        <label class="top">First Name <input type="text" name="fname" placeholder="First Name" required></label> 
+                        <label class="top">Last Name<input type="text" name="lname" placeholder="Last Name" required></label>
+                        <label class="top">Email <input type="email" name="email" placeholder="example@yourdomain.com" required></label>
+                        <label class="top">Cell Phone <input type="tel" name="phone" placeholder="(00) 000 0000" required></label>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend class="tittle_field">Business Information</legend>
+                        <label class="top">Business Name <input type="text" name="bname"  ></label>
+                        <label class="top">Business Position <input type="text" name="bposition" ></label>
+                        <label class="top">Business Description <textarea name="bdescription" rows="5" placeholder="Describe your business here..."></textarea></label>
+                    </fieldset>    
+
+
+                    <fieldset>
+                        <legend class="tittle_field">Select your Membership</legend>
+                        <label class="sbs"><input type="radio" name="membership" value="np" required> Free Membership</label>
+                        <label class="sbs"><input type="radio" name="membership" value="bronze" required> Bronze Membership</label>
+                        <label class="sbs"><input type="radio" name="membership" value="silver" required> Silver Membership</label>
+                        <label class="sbs"><input type="radio" name="membership" value="gold" required> Gold Membership</label>
+                        
+                    </fieldset>
+
+                    <input type="hidden" id="hidden-data-value">
+                    <input type="submit" value="Join" class="submitBtn">
+
+                </form>
+            </div>
+
+
+            <div class="membership-prices">
+
+                <div class="np-membership prices">
+                    <h3>Free</h3>
+                    <h4>$0</h4>
+                    <span>&bull; Basic Membership</span>
+                </div>
+
+                <div class="bronze-membership prices">
+                    <h3>Bronze</h3>
+                    <h4>$25 / year</h4>
+                    <span>&bull; 15% discount in Tourism books</span>
+                    <span>&bull; 30% discount on Guided tours</span>
+
+                </div>
+
+                <div class="silver-membership prices">
+                    <h3>Silver</h3>
+                    <h4>$50/month</h4>
+                    <span>&bull; 50% discount in Tourism books</span>
+                    <span>&bull; 40% discount on Guided tours</span>
+                </div>
+
+                <div class="gold-membership prices">
+                    <h3>Gold</h3>
+                    <h4>$100/month</h4>
+                    <span>&bull; Free digital Tourism books</span>
+                    <span>&bull; 50% discount on Guided tours</span>
+                    <span>&bull; VIP access (tickets are free)</span>
+                </div>
+
+            </div>
+        </div>
+    </main>
     <footer>
 
-    <div class="section_footer">
-        <picture class="lima-logo"> 
-            <source media="(max-width: 500px)" srcset="images/lima-logo-100.webp">
-            <source media="(max-width: 5000px)" srcset="images/lima-logo-150.webp">
-
-            <img src="images/lima-logo-100.webp" alt="logo">
-
-         </picture>  
-
-        <div class="footer_chamber">
-            <h1>Lima</h1>
-                <h2>Chamber of Commerce</h2>
-
-                <p>175 Valley River Dr, Rexburg, ID 83440, Estados Unidos</p>
-        </div>
-
-
-        <div class="contact_info">
-            <p>eduardocortezdominguez@gmail.com</p>
-            <p>+(223) 2070-2300</p>
-            
-            <a href="https://www.google.com/maps/place/McDonald's/@43.8335088,-111.7793491,16.78z/data=!4m14!1m7!3m6!1s0x53540a4f7d86c193:0x4e821cad8ac2d27!2sMcDonald's!8m2!3d43.8337663!4d-111.7785828!16s%2Fg%2F1tk8bsp9!3m5!1s0x53540a4f7d86c193:0x4e821cad8ac2d27!8m2!3d43.8337663!4d-111.7785828!16s%2Fg%2F1tk8bsp9"><img id="placeholder" src="images/placeholder.png" alt="placeholder"> Location Map </a>
-        </div>
-    </div>
-
-        <section class="footer_bar">
-        <h3>&copy; 2023 - Lima Chamber | Eduardo Cortez | WDD 230 Project </h3>
-        <p>Last Updated: <span id="date"></span></p>
-        
-        </section>
-    </footer>
-
-    <script src="scripts/scripts.js"></script>
-
-
-</body>
-
-</html>
+      <div class="section_footer">
+          <picture class="lima-logo"> 
+              <source media="(max-width: 500px)" srcset="images/lima-logo-100.webp">
+              <source media="(max-width: 5000px)" srcset="images/lima-logo-150.webp">
+  
+              <img src="images/lima-logo-100.webp" alt="logo">
+  
+           </picture>  
+  
+          <div class="footer_chamber">
+              <h1>Lima</h1>
+                  <h2>Chamber of Commerce</h2>
+  
+                  <p>175 Valley River Dr, Rexburg, ID 83440, Estados Unidos</p>
+          </div>
+  
+  
+          <div class="contact_info">
+              <p>eduardocortezdominguez@gmail.com</p>
+              <p>+(223) 2070-2300</p>
+              
+              <a href="https://www.google.com/maps/place/McDonald's/@43.8335088,-111.7793491,16.78z/data=!4m14!1m7!3m6!1s0x53540a4f7d86c193:0x4e821cad8ac2d27!2sMcDonald's!8m2!3d43.8337663!4d-111.7785828!16s%2Fg%2F1tk8bsp9!3m5!1s0x53540a4f7d86c193:0x4e821cad8ac2d27!8m2!3d43.8337663!4d-111.7785828!16s%2Fg%2F1tk8bsp9"><img id="placeholder" src="images/placeholder.png" alt="placeholder"> Location Map </a>
+          </div>
+      </div>
+  
+          <section class="footer_bar">
+          <h3>&copy; 2023 - Lima Chamber | Eduardo Cortez | WDD 230 Project </h3>
+          <p>Last Updated: <span id="date"></span></p>
+          
+          </section>
+      </footer>
+  
+      <script src="scripts/scripts.js"></script>
+  
+  
+  </body>
+  
+  </html>
