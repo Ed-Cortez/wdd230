@@ -465,6 +465,15 @@ nav ul.open {
 
 
 
+.thankyou {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+
+
+
 /* FOOOOOOOTEEEEEERR*/
 
     footer {
