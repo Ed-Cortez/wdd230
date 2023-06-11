@@ -1,0 +1,50 @@
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+
+    animation: slide-in 5s ease infinite;
+}
+
+/*------------------------------------------------------------*/
+
+
+@keyframes color-change1 {
+    0% {
+        background-color: blue;
+    }
+
+    50% {
+        background-color: green;
+    }
+
+    100% {
+        background-color: blue;
+    }
+}
+
+
+/*------------------------------------------------------------*/
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(0vw);
+    }
+
+    25% {
+        transform: translateX(25vw);
+    }
+
+    50% {
+        transform: translateX(50vw);
+    }
+
+    75% {
+        transform: translateX(25vw);
+    }
+
+    100% {
+        transform: translateX(0vw);
+    }
+}
