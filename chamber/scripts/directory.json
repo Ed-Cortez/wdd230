@@ -1,0 +1,83 @@
+[
+
+    {
+        "name":"Apple",
+        "address":"32180 Carter Avenue, Ziemannchester, Bilzen",
+        "phone":"649.973.0176",
+        "url":"www.apple.com/",
+        "logo":"images/directory-images/apple-logo.png",
+        "mlevel":"Gold"
+    },
+
+    {
+        "name":"JP Morgan Chase",
+        "address":"32180 Carter Avenue, Ziemannchester, Bilzen",
+        "phone":"649.973.0176",
+        "url":"https://www.chase.com/",
+        "logo":"images/directory-images/chase-logo.jpg",
+        "mlevel":"Gold"
+    },
+
+    {
+        "name":"Fanta",
+        "address":"32180 Carter Avenue, Ziemannchester, Bilzen",
+        "phone":"649.973.0176",
+        "url":"https://www.fanta.com",
+        "logo":"images/directory-images/fanta-logo.jpg",
+        "mlevel":"Silver"
+    },
+
+    {
+        "name":"BCP",
+        "address":"32180 Carter Avenue, Ziemannchester, Bilzen",
+        "phone":"649.973.0176",
+        "url":"https://www.bcp.com",
+        "logo": "images/directory-images/bcp-logo.jpg",
+        "mlevel":"Gold"
+    },
+
+    {
+        "name":"Graphite Systems",
+        "address":"32180 Carter Avenue, Ziemannchester, Bilzen",
+        "phone":"649.973.0176",
+        "url":"https://www.graphiteconnect.com/",
+        "logo":"images/directory-images/graphite-logo.png",
+        "mlevel":"Silver"
+    },
+
+    {
+        "name":"Intel",
+        "address":"32180 Carter Avenue, Ziemannchester, Bilzen",
+        "phone":"649.973.0176",
+        "url":"https://intel.com/",
+        "logo":"images/directory-images/intel-png.png",
+        "mlevel":"Gold"
+    },
+
+    {
+        "name":"Lenovo",
+        "address":"32180 Carter Avenue, Ziemannchester, Bilzen",
+        "phone":"649.973.0176",
+        "url":"https://www.lenovo.com/",
+        "logo":"images/directory-images/lenovo-logo.png",
+        "mlevel":"Silver"
+    },
+
+    {
+        "name":"Nestle",
+        "address":"32180 Carter Avenue, Ziemannchester, Bilzen",
+        "phone":"649.973.0176",
+        "url":"https://www.nestle.com/",
+        "logo":"images/directory-images/nestle-logo.jpg",
+        "mlevel":"Silver"
+    },
+
+    {
+        "name":"Samsung",
+        "address":"32180 Carter Avenue, Ziemannchester, Bilzen",
+        "phone":"649.973.0176",
+        "url":"https://www.samsung.com",
+        "logo":"images/directory-images/samsung-logo.webp",
+        "mlevel":"Bronze"
+    }  
+]

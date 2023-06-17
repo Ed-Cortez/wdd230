@@ -301,4 +301,34 @@
   .prices span {
     font-size: 1rem;
   }
+
+
+
+  .grid section{
+    max-width: 350px;
+}
+
+.grid img{
+    max-width: 100%;
+}
+
+.list section {
+    grid-template-columns:1fr;
+    padding: 1rem;
+}
+
+.infocontainer h2 {
+    font-size: 1rem;
+}
+
+.list .infocontainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+    gap: 30px;
+}
+
+.list section p,  .list section a{
+    font-size: 1rem;
+}
 }

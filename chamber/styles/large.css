@@ -295,5 +295,33 @@ nav button{
       margin-top: 0;
     }
     
+    .list section {
+        grid-template-columns:1fr 4fr;
+    }
+
+    .list section img {
+        max-width: 250px;
+        display: block;
+    }
+
+    .infocontainer h2 {
+        font-size: 1.5rem;
+    }
+   
+    .list section p,  .list section a{
+        font-size: 1.2rem;
+    }
+
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid section{
+        max-width: 450px;
+    }
+
+    .grid img{
+        max-width: 100%;
+    }
 
 }
