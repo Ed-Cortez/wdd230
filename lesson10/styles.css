@@ -1,0 +1,14 @@
+body  {
+    text-align: center;
+}
+
+h1, h2{
+    background-color: rgb(169, 182, 207);
+    max-width: 500px;
+    margin: auto;
+}
+
+
+figcaption {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
