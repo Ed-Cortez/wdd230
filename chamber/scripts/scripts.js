@@ -46,7 +46,7 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 // "full" or long, medium, short options ... try them
 
 datefield.textContent = fulldate;
-datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+datefieldUK.innerHTML = `${fulldateUK}`;
 datemessage.innerHTML = `Today is <strong>${fulldate}</strong>. What are you going to do?`;
 
 

@@ -1,6 +1,6 @@
 
 /* 35rem is also 560px when basefont is 16px */
-@media only screen and (min-width: 31rem) {
+@media only screen and (min-width: 34rem) {
     
 
     header {
@@ -124,7 +124,7 @@
     }
 
     .event h1 {
-        padding: 10% 0 0 0 ;    
+        padding: 8% 0 0 0 ;    
     }
 
     .event p{
@@ -140,6 +140,7 @@
     }
 
     .wheater {
+        
         text-align: center;
         font-size: 0.9rem;
         font-family: Lobster, cursive;

@@ -118,21 +118,18 @@
     <div class="wheater">
 
         <h1>Wheater</h1>
-        <img src="images/wheater.png" alt="Clouds">
+  
+
         <div class="weatherBox">
       
       
-            <p>24°C</p>
-
-         
-            <table>
-                <tbody><tr>
-                    <td>Wind Speed: <span class="wind-speed">6.17</span> m/s</td>
-                </tr>
-                <tr>
-                    <td>Wind Chill: <span class="wind-chill">N/A</span> m/s</td>
-                </tr>
-            </tbody></table>
+           
+            <p><span id="temp"></span>&deg;C</p>
+            
+            <img id="weather-icon">
+            <h3 id="weather-type"></h3>
+            <section id="windSection">
+                <p>Wind Speed: <span id="windSpeed"></span> mph</p>
           </div>
     </div>
 
@@ -235,6 +232,8 @@
         </section>
     </footer>
 
+    
+    <script src="scripts/windchill.js"></script>
     <script src="scripts/scripts.js"></script>
 
 

@@ -317,20 +317,28 @@ nav ul.open {
 
 .weatherBox p {
     margin: 0;
-
+    font-size: 0.9rem;
 }
 
 
 
 .weatherBox{
-    padding-top: 5%;
+    padding-top: 3%;
     padding-left: 2%;
     font-family:  Roboto, sans-serif;
     display: grid;
-    justify-content: left;
+    justify-content: center;
     font-size: 1rem;
 }
 
+#weather-icon {
+  margin: 0;
+  justify-self: center;
+}
+
+#temp {
+  font-size: 1.5rem;
+}
 
 .release {
     background-color: #c8c8c8;
