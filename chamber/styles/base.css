@@ -30,7 +30,7 @@ padding: 2.5%;
     display: grid;
     color: #eee;
     justify-content: start;
-    margin: 0;
+    margin-top: 1%;
     margin-bottom: 5%;
     float: left;
 
@@ -41,7 +41,7 @@ padding: 2.5%;
 
 .lima-logo {
     display: block;
-    margin: 0;
+    margin: 1% 0 1% 1.5%;
     float: left;
     
 }
@@ -926,3 +926,38 @@ nav ul.open {
   }
 
   
+.contact_us {
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr 0.8fr 0.2fr 0.8fr;
+}
+
+
+
+.contact-form {
+  grid-row: 1/2;
+  justify-self: center;
+}
+
+.lima-vertical {
+  grid-row: 2/3;
+  justify-self: center;
+  margin: 0;
+  width: 90%;
+  height: 100%;
+  background-image: url(../images/lima-vertical.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.contact-address {
+  grid-row: 3/4;
+  margin: 0 0 0 40px;
+  font-size: 1rem;
+}
+
+.map {
+  max-height: 600px;
+  grid-column: 1/3;
+}

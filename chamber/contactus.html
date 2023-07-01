@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="The Chamber of Commerce of Lima">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -33,13 +34,13 @@
     <!-- HEADER HERE -->
         <header class="clearfix">
 
-            <picture class="lima-logo"> 
-                <source media="(max-width: 575.5px)" srcset="images/lima-logo-100.webp">
-                <source media="(max-width: 5000px)" srcset="images/lima-logo-150.webp">
-    
-                <img src="images/lima-logo-100.webp" alt="logo">
-    
-             </picture>  
+         <picture class="lima-logo"> 
+            <source media="(max-width: 575.5px)" srcset="images/lima-logo-100.webp">
+            <source media="(max-width: 5000px)" srcset="images/lima-logo-150.webp">
+
+            <img src="images/lima-logo-100.webp" alt="logo">
+
+         </picture>  
         <div class="headings">
             <h1>Lima</h1>
                 <h2>Chamber of Commerce</h2>
@@ -80,66 +81,92 @@
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="directory.html">Directory</a></li>   
-                <li><a href="contactus.html">Contact Us</a></li> 
+                <li><a href="#">Contact Us</a></li>
+
               
+      
             </ul>
         </nav>
 
         </header>
-    
 
-        
-    <!-- NAVIGATION HERE -->
+        <main class="contact_us">
 
+            <form method="get" action="thankyou-contact.html" class="contact-form">
+                <fieldset>
+                    <label class="top">First Name *<input type="text" name="fname" required></label>
+                    <label class="top">Last Name *<input type="text" name="lname" required></label>
+                    <label class="top">Business Position<input type="text" id="pattern" name="title" minlength="7" pattern="^(?=.*[a-zA-Z])[a-zA-Z\s\-]{7,}$"></label>
+                    <label class="top">Email address *<input type="email" name="email" placeholder="someone@example.com" required></label>  
+                    <label class="top">Phone *<input type="tel" name="phone" placeholder="(01) 987 098 098" required></label>
+                    <label class="top">Additional information<textarea name="bdescription" cols="33" rows="10" placeholder="Please, enter your questions here"></textarea></label>
+                    <input type="hidden" name="appdate" id="appdate" value="">  
+                    <input type="submit" value="Contact me" class="submitBtn">
 
+                </fieldset>
+            </form>
 
-
-
-<main class="thankyou">
-  
-        <h2>Welcome!</h2>
-        <p>You have registered to Lima Chamber of Commerce, enjoy the benefits!</p>
-  
-</main>
-
-
-<footer>
-
-    <div class="section_footer">
-        <picture class="lima-logo"> 
-            <source media="(max-width: 500px)" srcset="images/lima-logo-100.webp">
-            <source media="(max-width: 5000px)" srcset="images/lima-logo-150.webp">
-
-            <img src="images/lima-logo-100.webp" alt="logo">
-
-         </picture>  
-
-        <div class="footer_chamber">
-            <h1>Lima</h1>
-                <h2>Chamber of Commerce</h2>
-
-                <p>175 Valley River Dr, Rexburg, ID 83440, Estados Unidos</p>
-        </div>
-
-
-        <div class="contact_info">
-            <p>eduardocortezdominguez@gmail.com</p>
-            <p>+(223) 2070-2300</p>
+            <div class="lima-vertical">
             
-            <a href="https://www.google.com/maps/place/McDonald's/@43.8335088,-111.7793491,16.78z/data=!4m14!1m7!3m6!1s0x53540a4f7d86c193:0x4e821cad8ac2d27!2sMcDonald's!8m2!3d43.8337663!4d-111.7785828!16s%2Fg%2F1tk8bsp9!3m5!1s0x53540a4f7d86c193:0x4e821cad8ac2d27!8m2!3d43.8337663!4d-111.7785828!16s%2Fg%2F1tk8bsp9"><img id="placeholder" src="images/placeholder.png" alt="placeholder"> Location Map </a>
+            </div>
+
+            <div class="contact-address">
+                <h2>Contact Us</h2>
+                <h3>Lima Chamber of Commerce</h3>
+                <p>  104 Macon Capac Street
+                    Lima, Peru 15495</p>
+                    <p>(512) 478-9383</p>
+            </div>
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d499487.7350407488!2d-77.31744642614936!3d-12.02644501980608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5f619ee3ec7%3A0x14206cb9cc452e4a!2sLima!5e0!3m2!1ses-419!2spe!4v1688233234503!5m2!1ses-419!2spe" 
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+
+        </main>
+
+            <!-- FOOTER HERE -->
+
+    <footer>
+
+        <div class="section_footer">
+            <picture class="lima-logo"> 
+                <source media="(max-width: 500px)" srcset="images/lima-logo-100.webp">
+                <source media="(max-width: 5000px)" srcset="images/lima-logo-150.webp">
+    
+                <img src="images/lima-logo-100.webp" alt="logo">
+    
+             </picture>  
+    
+            <div class="footer_chamber">
+                <h2>Lima</h2>
+                    <h3>Chamber of Commerce</h3>
+    
+                    <p>175 Valley River Dr, Rexburg, ID 83440, Estados Unidos</p>
+            </div>
+    
+    
+            <div class="contact_info">
+                <p>eduardocortezdominguez@gmail.com</p>
+                <p>+(223) 2070-2300</p>
+                
+                <a href="https://www.google.com/maps/place/McDonald's/@43.8335088,-111.7793491,16.78z/data=!4m14!1m7!3m6!1s0x53540a4f7d86c193:0x4e821cad8ac2d27!2sMcDonald's!8m2!3d43.8337663!4d-111.7785828!16s%2Fg%2F1tk8bsp9!3m5!1s0x53540a4f7d86c193:0x4e821cad8ac2d27!8m2!3d43.8337663!4d-111.7785828!16s%2Fg%2F1tk8bsp9"><img id="placeholder" src="images/placeholder.png" alt="placeholder"> Location Map </a>
+            </div>
         </div>
-    </div>
-
-        <section class="footer_bar">
-        <h3>&copy; 2023 - Lima Chamber | Eduardo Cortez | WDD 230 Project </h3>
-        <p>Last Updated: <span id="date"></span></p>
+    
+            <section class="footer_bar">
+            <h3>&copy; 2023 - Lima Chamber | Eduardo Cortez | WDD 230 Project </h3>
+            <p>Last Updated: <span id="date"></span></p>
+            
+            </section>
+        </footer>
+    
         
-        </section>
-    </footer>
-
-    <script src="scripts/scripts.js"></script>
-
-
-</body>
-
-</html>
+        <script src="scripts/scripts.js"></script>
+    
+    
+    </body>
+    
+    </html>
+    

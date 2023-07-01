@@ -342,4 +342,34 @@ nav button{
         max-width: 100%;
     }
 
+
+
+    
+
+  
+.contact-form {
+    grid-row: 1/3;
+
+  }
+  
+  .lima-vertical {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 50px;
+    width: 95%;
+    height: 100%;
+
+    
+  }
+  
+  .contact-address {
+    grid-row: 2/3;
+    margin: 50px 0 0 40px;
+    font-size: 1.2rem;
+  }
+  
+  .map {
+    grid-column: 1/3;
+  }
+
 }
