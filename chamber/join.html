@@ -25,18 +25,20 @@
 
 <body>
 
-
+    <div id="banner"> 
+        <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+    </div>
 
     <!-- HEADER HERE -->
         <header class="clearfix">
 
-         <picture class="lima-logo"> 
-            <source media="(max-width: 500px)" srcset="images/lima-logo-100.webp">
-            <source media="(max-width: 5000px)" srcset="images/lima-logo-150.webp">
-
-            <img src="images/lima-logo-100.webp" alt="logo">
-
-         </picture>  
+            <picture class="lima-logo"> 
+                <source media="(max-width: 575.5px)" srcset="images/lima-logo-100.webp">
+                <source media="(max-width: 5000px)" srcset="images/lima-logo-150.webp">
+    
+                <img src="images/lima-logo-100.webp" alt="logo">
+    
+             </picture>   
         <div class="headings">
             <h1>Lima</h1>
                 <h2>Chamber of Commerce</h2>
@@ -69,7 +71,18 @@
                 <p><time datetime="2023-05-06T13:53"></time></p>
         </div>
        
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>   
 
+              
+      
+            </ul>
+        </nav>
 
         </header>
     
@@ -77,19 +90,7 @@
         
     <!-- NAVIGATION HERE -->
 
-    <nav>
-        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-        <ul id="primaryNav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="discover.html">Discover</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="directory.html">Directory</a></li>   
-            <li><a href="#">Span</a></li>
-            <li><a href="#">Span</a></li>  
-          
-  
-        </ul>
-    </nav>
+
     
         <body>
 
@@ -103,22 +104,22 @@
                 
                     <fieldset>
                         <legend class="tittle_field">Information</legend>
-                        <label class="top">First Name <input type="text" name="fname" placeholder="First Name" required></label> 
-                        <label class="top">Last Name<input type="text" name="lname" placeholder="Last Name" required></label>
-                        <label class="top">Email <input type="email" name="email" placeholder="example@yourdomain.com" required></label>
-                        <label class="top">Cell Phone <input type="tel" name="phone" placeholder="(00) 000 0000" required></label>
+                        <label class="top">First Name *<input type="text" name="fname" placeholder="First Name" required></label> 
+                        <label class="top">Last Name *<input type="text" name="lname" placeholder="Last Name" required></label>
+                        <label class="top">Email *<input type="email" name="email" placeholder="example@yourdomain.com" required></label>
+                        <label class="top">Cell Phone *<input type="tel" name="phone" placeholder="(00) 000 0000" required></label>
                     </fieldset>
                     
                     <fieldset>
                         <legend class="tittle_field">Business Information</legend>
                         <label class="top">Business Name <input type="text" name="bname"  ></label>
-                        <label class="top">Business Position <input type="text" name="bposition" ></label>
+                        <label class="top">Business Position *<input type="text" name="bposition"  required></label>
                         <label class="top">Business Description <textarea name="bdescription" rows="5" placeholder="Describe your business here..."></textarea></label>
                     </fieldset>    
 
 
                     <fieldset>
-                        <legend class="tittle_field">Select your Membership</legend>
+                        <legend class="tittle_field">Select your Membership *</legend>
                         <label class="sbs"><input type="radio" name="membership" value="np" required> Free Membership</label>
                         <label class="sbs"><input type="radio" name="membership" value="bronze" required> Bronze Membership</label>
                         <label class="sbs"><input type="radio" name="membership" value="silver" required> Silver Membership</label>
@@ -166,8 +167,13 @@
 
             </div>
         </div>
+
+       
+
     </main>
+    
     <footer>
+        
 
       <div class="section_footer">
           <picture class="lima-logo"> 
@@ -179,8 +185,8 @@
            </picture>  
   
           <div class="footer_chamber">
-              <h1>Lima</h1>
-                  <h2>Chamber of Commerce</h2>
+              <h2>Lima</h2>
+                  <h3>Chamber of Commerce</h3>
   
                   <p>175 Valley River Dr, Rexburg, ID 83440, Estados Unidos</p>
           </div>

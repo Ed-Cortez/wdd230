@@ -1,17 +1,29 @@
   /* HEADER */
 
+
+
 header {
 
     background-color: #242325;
     height: 100%;
     width: 100%;
     align-items: center;
-	padding: 3% 0 8% 2%;
+	  padding: 0;
     margin: auto;
     
 }
 
+#banner {
+height: 70px;
+text-align: center;  
+background-color: #c8c8c8;
+padding: 2.5%;
+}
 
+#banner p {
+  margin: 0;
+  text-align: center;
+}
 
 
 .headings {
@@ -64,7 +76,7 @@ header {
   .social {
     display: block;
     text-align: end;
-    padding: 5% 8% 2% 0;
+    padding: 5% 8% 50px 0;
     flex-grow: 1;
     
 }
@@ -92,12 +104,14 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 
 nav button {
+    display: block;
     width: 90%;
     background-color: #bbb891;
     border: none;
     font-size: 2rem;
     color: #555;
     text-align: end;
+
     
 }
 
@@ -105,7 +119,11 @@ nav button {
 nav {
     display: block;
     background-color: #bbb891;
-    font-family: Roboto, sans-serif;;
+    font-family: Roboto, sans-serif;
+    width: 100%;
+    
+    
+    
 }
 
 nav ul {
@@ -215,7 +233,7 @@ nav ul.open {
 /*              Hero                          */
 
 .hero {
-    background-image: linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, 0.40)), url(../images/wdd230-org-small.jpg);
+    background-image: linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, 0.40)), url(../images/hero.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     display: grid;
@@ -232,12 +250,21 @@ nav ul.open {
 }
 
 
+
 .hero button {
+  padding: 0;
+  margin: 0;
     max-height: 35%;
     width: 50%;
     border-radius: 10px ;
     justify-self: center;
     
+}
+
+.hero button a {
+  padding: 8% 29%;
+  text-decoration: none;
+
 }
 
 .hero button:hover {
@@ -253,16 +280,16 @@ nav ul.open {
     background-repeat: no-repeat;
 }
 
-.event h1 {
+.event h2 {
     text-align: center;
     font-size: 1.8rem;
     color: #f2f2f2;
     font-family: Lobster, cursive;
     text-shadow: 5px 5px 5px #000;
-    padding: 12% 0 0 0 ;    
+    padding: 0 0 0 0 ;    
 }
 
-.event h2 {
+.event h3 {
     text-align: center;
     font-size: .8rem;
     color: #f2f2f2;
@@ -297,13 +324,14 @@ nav ul.open {
 
 .wheater {
     text-align: center;
+    min-width: 220px;
     font-size: 0.9rem;
     font-family: Lobster, cursive;
     background-color: #c8c8c8;
     margin: 0;
 }
 
-.wheater h1 {
+.wheater h2 {
     padding: 3%;
     margin:  0;
 }
@@ -345,7 +373,7 @@ nav ul.open {
     margin: 0;
 }
 
-.release h1 {
+.release h2 {
     text-align: center;
     font-size: 1.8rem;
     font-family: Lobster, cursive;
@@ -378,7 +406,7 @@ nav ul.open {
 }
 
 
-.spotlight h1, .spotlight3 h1 {
+.spotlight h2, .spotlight3 h2 {
     margin: 0;
     padding: 3%;
     text-align: center;
@@ -442,7 +470,7 @@ nav ul.open {
 }
 
 
-.join h1 {
+.join h2 {
     margin: auto 0;
     max-height: 55px;
     text-align: center;
@@ -487,7 +515,7 @@ nav ul.open {
 .grid {
   padding: 50px 20px 100px 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   font-family: 'Montserrat', sans-serif;
   place-items: center;
   grid-gap: 30px;
@@ -495,7 +523,7 @@ nav ul.open {
 
 .grid img{
   margin-bottom: 5%;
-  max-width: 250px;
+  max-width: 230px;
   box-shadow: 5px 5px 5px gray;
 }
 
@@ -510,6 +538,7 @@ nav ul.open {
 
 .grid section{
   text-align: center;
+
 }
 
 
@@ -617,7 +646,7 @@ nav ul.open {
 
     }
 
-    .footer_chamber h1 {
+    .footer_chamber h2 {
         text-align: center;
         letter-spacing: 3pt;
         margin: 0;
@@ -626,7 +655,7 @@ nav ul.open {
     
       }
     
-      .footer_chamber h2 {
+      .footer_chamber h3 {
         text-align: center;
         margin-top: 0;
         font-size: .6rem;

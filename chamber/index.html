@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="The Chamber of Commerce of Lima">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -25,13 +26,16 @@
 
 <body>
 
+    <div id="banner"> 
+        <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+    </div>
 
 
     <!-- HEADER HERE -->
         <header class="clearfix">
 
          <picture class="lima-logo"> 
-            <source media="(max-width: 500px)" srcset="images/lima-logo-100.webp">
+            <source media="(max-width: 575.5px)" srcset="images/lima-logo-100.webp">
             <source media="(max-width: 5000px)" srcset="images/lima-logo-150.webp">
 
             <img src="images/lima-logo-100.webp" alt="logo">
@@ -70,6 +74,17 @@
         </div>
        
 
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="#">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>     
+              
+      
+            </ul>
+        </nav>
 
         </header>
         
@@ -78,19 +93,6 @@
         
     <!-- NAVIGATION HERE -->
 
-    <nav>
-        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-        <ul id="primaryNav">
-            <li><a href="#">Home</a></li>
-            <li><a href="discover.html">Discover</a></li>
-            <li><a href="join.html">Join</a></li>
-            <li><a href="directory.html">Directory</a></li>   
-            <li><a href="#">Span</a></li>
-            <li><a href="#">Span</a></li>  
-          
-  
-        </ul>
-    </nav>
         
     <!-- CONTENT HERE -->
         <main>
@@ -101,14 +103,14 @@
         
         <p>Let Lima captivate you</p>
         
-        <button>Join Us</button>
+        <button><a href="join.html">Join Us</a></button>
 
     </div>
 
 
     <div class="event">
-        <h1>Chamber Meet</h1>
-        <h2>September 15th, 2023</h2>
+        <h2>Chamber Meet</h2>
+        <h3>September 15th, 2023</h3>
         <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m. </p>
         <p><a id="moreinfo" href="#">More info...</a></p>
 
@@ -117,25 +119,22 @@
 
     <div class="wheater">
 
-        <h1>Wheater</h1>
+        <h2>Wheater</h2>
   
 
         <div class="weatherBox">
-      
-      
-           
             <p><span id="temp"></span>&deg;C</p>
-            
             <img id="weather-icon">
             <h3 id="weather-type"></h3>
             <section id="windSection">
                 <p>Wind Speed: <span id="windSpeed"></span> mph</p>
+            </section>
           </div>
     </div>
 
 
     <div class="release">
-        <h1>Release</h1>
+        <h2>Release</h2>
         <p>Soon personalized tourist guides will be launched publicly and privately, 
             which will tour the Catacombs, the most emblematic museums of the capital 
             and a night walk along the green coast of Lima. At the same time, we will 
@@ -145,7 +144,7 @@
 
     
     <div class="join">
-        <h1>Be part of the Chamber</h1>
+        <h2>Be part of the Chamber</h2>
         <p>Being member of the Chamber has many benefits, be part of the chamber and do not loose 
             this opportunity.
         </p>
@@ -158,7 +157,7 @@
 <div class="spotlight-boxes">
 
     <div class="spotlight">
-        <h1>City Tour</h1>
+        <h2>City Tour</h2>
         <img class="spotlight-icon" src="images/pueblo.png" alt="pueblo">
         <p>The city tour is a beautiful experience where you 
             will learn about the gastronomy and drinks Peru can offer you</p>
@@ -169,7 +168,7 @@
     </div>
 
     <div class="spotlight">
-        <h1>Brochures</h1>
+        <h2>Brochures</h2>
         <img class="spotlight-icon" src="images/folleto.png" alt="folleto">
         <p>The city tour is a beautiful experience where you 
             will learn about the gastronomy and drinks Peru can offer you</p>
@@ -180,7 +179,7 @@
     </div>
 
     <div class="spotlight3">
-        <h1>Typical Dishes</h1>
+        <h2>Typical Dishes</h2>
         <img class="spotlight-icon" src="images/food-restaurant.png" alt="folleto">
         <p>The city tour is a beautiful experience where you 
             will learn about the gastronomy and drinks Peru can offer you</p>
@@ -210,8 +209,8 @@
          </picture>  
 
         <div class="footer_chamber">
-            <h1>Lima</h1>
-                <h2>Chamber of Commerce</h2>
+            <h2>Lima</h2>
+                <h3>Chamber of Commerce</h3>
 
                 <p>175 Valley River Dr, Rexburg, ID 83440, Estados Unidos</p>
         </div>

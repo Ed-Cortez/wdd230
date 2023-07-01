@@ -1,20 +1,27 @@
 
 /* 35rem is also 560px when basefont is 16px */
-@media only screen and (min-width: 34rem) {
+@media only screen and (min-width: 36rem) {
     
 
     header {
 
 
-        padding: 3% 0 2% 2%;
+        padding: 0;
        
         
     }
 
+    #banner {
+        padding: 2.5%;
+        }
+        
+    #banner p {
+          font-size: 1.2rem;
+        }
 
     .social {        
         text-align: end;
-        padding: 5% 3% 10% 0;
+        padding: 5% 3% 70px 0;
     }
 
     .headings {
@@ -70,8 +77,7 @@
 
 
     .hero {
-        background-image: linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, 0.40)), url(../images/wdd230-org-medium.jpg);
-
+        background-image: linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, 0.40)), url(../images/hero.jpeg);
         grid-column: 1/3;
         order: -5;
     }
@@ -117,14 +123,19 @@
         max-height: 40%;        
     }
 
+    .hero button a {
+        padding: 6% 36.5%;
+        text-decoration: none;
+
+    }
 
     .evert {
         display: block;
 
     }
 
-    .event h1 {
-        padding: 8% 0 0 0 ;    
+    .event h2 {
+        padding: 0;    
     }
 
     .event p{
@@ -133,7 +144,7 @@
         margin: 0; 
     }
 
-    .event h2{
+    .event h3{
         font-size: 1.1rem;
         padding: 0 5%;   
         margin: 0; 
@@ -148,7 +159,7 @@
         margin: 0;
     }
     
-    .wheater h1 {
+    .wheater h2 {
         padding: 3%;
     }
     
@@ -159,8 +170,8 @@
     }
 
 
-    .release h1 {
-        padding-top: 3%;
+    .release h2 {
+        padding-top: 4%;
     }
 
     .release p {
@@ -172,7 +183,7 @@
 
 
 
-    .spotlight h1, .spotlight3 h1 {
+    .spotlight h2, .spotlight3 h2 {
         font-size: 1.5rem;
         padding: 5%;
     }
@@ -200,13 +211,13 @@
     
 
 
-    .footer_chamber h1 {
+    .footer_chamber h2 {
         font-size: 1.8rem;
         margin: 10% 10% 2% 0;
         text-align: start;
     }
 
-    .footer_chamber h2 {
+    .footer_chamber h3 {
         margin-bottom: 0;
         font-size: 0.7rem;
         text-align: start;
@@ -248,11 +259,6 @@
 
       }
 
-      .event h2{
-        font-size: 1rem;
-        padding: 0 5%;   
-        margin: 0; 
-    }
       .join a {
 
         padding: 2% 18%;

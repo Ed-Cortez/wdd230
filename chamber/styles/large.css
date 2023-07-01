@@ -6,13 +6,22 @@
     header {
 
 
-        padding: 2% 0 2% 2%;
+        padding: 0;
        
         
     }
+
+    #banner {
+        padding: 1.1%;
+        }
+        
+    #banner p {
+          font-size: 1.5rem;
+        }
+
   
     .social {
-        padding: 3%;
+        padding: 4%;
     }
     .social svg {
         width: 45px;
@@ -44,6 +53,7 @@
 }
 
 
+
 nav button{
     display: none;
 }
@@ -55,10 +65,15 @@ nav button{
         border: 0.5px solid black ;
     }
 
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
     nav ul#primaryNav {
         display: flex;
         justify-content: center;
-        border-left: 1px solid rgba(0, 0, 0, 0.3);
+       
     }
 
 
@@ -68,8 +83,7 @@ nav button{
 
 
     .hero {
-        background-image: linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, 0.40)), url(../images/wdd230-org-large.jpg);
-    
+    background-image: linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, 0.40)), url(../images/hero.jpeg);
     grid-column: 2/4;
     grid-row: 1/3;
     }
@@ -116,6 +130,10 @@ nav button{
             max-height: 18%;        
         }
 
+        .hero button a {
+            padding: 8% 36.5%;
+        }
+
 
 
     .event {
@@ -124,9 +142,9 @@ nav button{
         display: block;
     }
 
-    .event h1{
+    .event h2{
         font-size: 1.8rem;
-        padding: 16% 0 5% 0; 
+        padding: 12% 0 5% 0; 
         margin: 0;  
     }
 
@@ -136,7 +154,7 @@ nav button{
         margin: 0; 
     }
 
-    .event h2{
+    .event h3{
         font-size: 1.1rem;
         padding: 0 5%;   
         margin: 0; 
@@ -160,7 +178,7 @@ nav button{
         margin: 0;
     }
 
-    .wheater h1 {
+    .wheater h2 {
         padding: 8%;
     }
     

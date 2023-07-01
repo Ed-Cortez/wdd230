@@ -12,5 +12,5 @@ localStorage.setItem('ultimaVisita', fechaActualFormateada);
 // Obtener la última visita almacenada en el almacenamiento local
 var ultimaVisita = localStorage.getItem('ultimaVisita');
 
-// Mostrar la última visita en tu página web
+// Mostrar la última visita 
 document.getElementById('ultima-visita').textContent = 'Last visit: ' + ultimaVisita;
