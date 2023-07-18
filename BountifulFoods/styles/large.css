@@ -1,0 +1,137 @@
+
+@media only screen and (min-width: 801px) { 
+
+  .headerh1 {
+    -webkit-text-stroke: 0.8px rgb(0, 0, 0); 
+    text-align: center;
+    font-size: 4rem;
+    margin: 0;
+    padding: 5% 0; 
+    color: aliceblue;
+    font-family: 'IBM Plex Serif', serif;
+    }
+
+    .headercontainer {
+      height: 250px;
+    }
+
+ 
+    /*Navigation style */
+       nav button {
+       display: none;
+     }
+
+     nav ul li {
+      width: 150px;
+      text-align: center;
+     }
+
+     nav ul#primaryNav {
+      background-color:#9C3848;
+       display: flex;
+       flex-direction: row;
+       justify-content: center; 
+       margin: auto;
+       gap: 100px;
+     }
+
+     nav {
+        background-color:rgb(10, 41, 90);
+        width:100%;
+      
+      }
+
+     nav ul {
+        margin: 0;
+        list-style-type: none;
+        height: 100%;
+      }
+  
+   .index {
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+   }
+   .fresh {
+     display: flex;
+     justify-content:space-evenly ;
+   }
+   .headerh1 {
+    left: 32%;
+   }
+     .fruitcontainer {
+       display: block;
+     }
+     .vegcontainer,
+     .fruitcontainer, .cabcontainer {
+
+       width:auto;  
+     } 
+     
+   
+   
+     .fruith2, .vegh2, .cabh2 {
+      width: auto;
+     background-color:rgb(17, 60, 67);
+     color: aliceblue;
+   }
+   
+   .weather {
+    display: block;
+     margin-left: 9px;
+     margin-right: 0; 
+     width: 40%;
+   }
+
+   .smoothie {
+    width: 65%;
+   }
+
+
+    .about {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 1.5rem; 
+    }
+     .abouth1{
+     grid-column: 1/3;
+     text-align: center;
+    }
+    .historicalinfo {
+     grid-column: 2/3;
+     grid-row: 2/3;
+     width: 80%; 
+     height: 92%
+    }
+    .contactinfo {
+     grid-column: 1/2;
+     grid-row: 3/4; 
+     margin: center;
+     margin-bottom: 10%;
+     width: 60%;
+    }
+    .map {
+     grid-column: 1/3;
+     grid-row: 2/3;
+     width: 60%;
+     height: 99%;
+    }
+     iframe {
+     width: 75%;
+     margin-left: 35px;
+     margin-top: 3px;
+      height: 100%;
+   }  
+    .aboutthanks {
+     grid-column: 2/3;
+     grid-row: 3/4;
+     margin-left: 14%;
+    }
+
+    .contact_info p {
+      font-size: 1rem;
+      margin: 0;
+      
+     }
+
+   }

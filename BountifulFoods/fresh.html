@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Melinda Slaughter">
+    <meta name="description"
+        content="site for fictitional company Bountiful Foods. Created as a final project for WDD230 BYUI">
+    <link rel="shortcut icon" href="favicon.jpg">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <title>Fresh Food</title>
+</head>
+
+<body class="freshbody">
+    <header>
+        <div class="headercontainer">                                                                           
+            <h1 class="headerh1">Bountiful Foods</h1>
+        </div>
+        <div class="navcontainer">
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+        </div>
+
+        <div id="time"></div>
+    </header>
+
+    
+    <main class="fresh">
+        <form method="get" action="#">
+            <fieldset>
+                <h2>Personal Information</h2>
+                <label class="top">First Name* <input class="top" type="text" name="fname" required
+                        id="userName"></label>
+                <label class="top">Email* <input type="email" placeholder="someone@gmail.com" required
+                        id="userEmail"></label>
+                <label class="top">Phone* <input type="tel" name="phone" required id="userPhone"></label>
+                <input type="submit" value="Enter Information" class="submitBtn" onclick="showInput(); return false">
+
+                <br><br>
+                Fruits: <select name="select1" id="fruit1">
+                    <option value="default">Select Fruit</option>
+                </select>
+                <br><br>
+                Fruits: <select name="select2" id="fruit2">
+                    <option value="default">Select Fruit</option>
+                </select>
+                <br><br>
+                Fruits: <select name="select3" id="fruit3">
+                    <option value="default">Select Fruit</option>
+                </select>
+                <label class="top">Special Instructions
+                    <textarea id="instructions" name="instructions" rows="4" cols="51"></textarea>
+                </label>
+                <input type="button" id="txt" value="Order your smoothie" onclick="getText(); orderCounter();">
+            </fieldset>
+        </form>
+
+        <div class="orderinfo">
+            <h2 class="infoh2">Congratulations!</h2>
+            <p><strong>Name:</strong> <span id="display"></span></p>
+            <p><strong>Email:</strong> <span id="display2"></span></p>
+            <p><strong>Phone:</strong> <span id="display3"></span></p>
+            <p><strong>Date Ordered:</strong> <span id="date2"></span></p>
+            <p><strong>Your first fruit choice is:</strong> <span id="fruitfirst"></span></p>
+            <p><strong>Your second fruit choice is:</strong> <span id="fruitsecond"></span></p>
+            <p><strong>Your third fruit choice is:</strong> <span id="fruitthird"></span></p>
+            <p><strong> Your instructions are: </strong> <span id="display_instructions"></span></p>
+            <h3>You have ordered a delicious smoothie!</h3>
+            <p><strong>Total carbohydrates:</strong> <span id="carbs"></span></p>
+            <p><strong>Total protein:</strong> <span id="protein"></span></p>
+            <p><strong>Total fat: </strong><span id="fat"></span></p>
+            <p><strong>Total sugar:</strong> <span id="sugar"></span></p>
+            <p><strong>Total calories:</strong> <span id="calories"></span></p>
+            <p id="smoothiesord"> </p>
+        </div>
+
+    </main>
+    <footer class="footer">
+
+        <img src="images/logo.png" id="logo_smothie" width="100">
+
+<div class="footer_chamber">
+    <h2>Smoothie</h2>
+        <h3>The best smoothies</h3>
+
+        <p>175 Valley River Dr, Rexburg, ID 83440, Estados Unidos</p>
+</div>
+
+
+<div class="contact_info">
+    <p>eduardocortezdominguez@gmail.com</p>
+    <p>+(223) 2070-2300</p>
+    
+    <a href="https://www.google.com/maps/place/McDonald's/@43.8335088,-111.7793491,16.78z/data=!4m14!1m7!3m6!1s0x53540a4f7d86c193:0x4e821cad8ac2d27!2sMcDonald's!8m2!3d43.8337663!4d-111.7785828!16s%2Fg%2F1tk8bsp9!3m5!1s0x53540a4f7d86c193:0x4e821cad8ac2d27!8m2!3d43.8337663!4d-111.7785828!16s%2Fg%2F1tk8bsp9"><img id="placeholder" src="images/placeholder.png" alt="placeholder"> Location Map </a>
+</div>
+
+
+<section class="footer_bar">
+<h3>&copy; 2023 - Bountiful Foods | Eduardo Cortez | WDD 230 Final Project </h3>
+    <p>Last Updated: <span id="date"></span></p>
+
+</section>
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/fruits.js"></script>
+
+</body>
+
+</html>

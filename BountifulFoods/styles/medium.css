@@ -1,0 +1,146 @@
+@media only screen and (min-width: 36em) {
+
+
+    .headerh1 {
+      -webkit-text-stroke: 0.8px rgb(0, 0, 0); 
+      text-align: center;
+      font-size: 3rem;
+      margin: 0;
+      padding: 5% 0; 
+      color: aliceblue;
+      font-family: 'IBM Plex Serif', serif;
+      
+      }
+
+      nav ul li {
+        margin: 0;
+        list-style-type: none;
+        height: 100%;
+        border-top: 1px solid rgba(0, 0, 0, 0.5);
+
+      }
+  
+
+
+    .fresh, .index{ 
+      display: grid;
+    } 
+    .headerh1 {
+     left: 23%;
+    }
+    .about {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .map {
+      width: 60%;
+    }
+    
+    iframe {
+      width: 100%;
+       margin-left: 0;
+       height: 110%;
+    }  
+     .contactinfo {
+      margin: center;
+    }
+    .aboutthanks {
+     margin-left: 0;
+    }
+     
+    .vegcontainer,
+    .fruitcontainer, .cabcontainer {
+      margin: 7px;
+      padding: .7rem;
+    }
+    .vegcontainer {
+      grid-column: 1/2;
+    }
+    .vegimg, .vegp {
+     margin-left: 0;
+    }
+    .cabcontainer {
+      grid-column: 2/3
+    }
+    .weather {
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+    .smoothie {
+      margin-left: 0;
+      margin-right: 5px;
+    }
+      nav ul li a {
+        border: none;
+      }
+      .fruitcontainer {
+        display: none;
+      }
+
+      .fruith2, .vegh2, .cabh2 {
+       max-width: 100%;
+    }
+    
+/*Footer*/
+.footer {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr ;
+  justify-content: center;
+}
+
+#logo_smothie {
+padding: 1% 30%;
+}
+
+.footer_chamber h2 {
+  font-size: 1.8rem;
+  margin: 10% 10% 2% 0;
+  text-align: start;
+}
+
+.footer_chamber h3 {
+  margin-bottom: 0;
+  font-size: 0.7rem;
+  text-align: start;
+}
+
+.footer_chamber p {
+  font-size: 0.6rem;
+  text-align: start;
+  padding: 0 15% 0 0;
+}
+
+
+.footer_bar {
+  grid-column: 1/4;
+  font-size: .8rem;
+  padding: 0 10%;
+}
+
+
+.contact_info{
+  display: flex;
+  flex-direction: column;
+
+  grid-column: 3/5;
+
+}
+
+.contact_info p {
+ font-size: 0.7rem;
+ margin: 0;
+ 
+}
+
+.contact_info a {
+  font-size: 1rem;
+
+}
+
+#placeholder {
+  max-width: 26px;
+
+}
+    
+    }

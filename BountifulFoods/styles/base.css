@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,200;0,600;1,300&display=swap'); 
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+
+
+/* Header style */
+.headercontainer {
+  background-image: url(../images/smoothie500.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 100%;
+}
+.headerh1 {
+  -webkit-text-stroke: 0.8px rgb(0, 0, 0); 
+  text-align: center;
+  font-size: 3rem;
+  margin: 0;
+  padding: 5% 0; 
+  color: aliceblue;
+  font-family: 'IBM Plex Serif', serif;
+
+}
+ .mainimg {
+  width: 100%;
+} 
+
+/* Navigation style */
+nav button {
+  padding: 2% 8%;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: rgb(32, 32, 32);
+}
+
+nav {
+  background-color:#9C3848;
+  width:100%;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  height: 100%;
+}
+
+nav ul li a {
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+  display: block;
+  padding: 1rem 10%;
+  text-decoration: none;
+  color: rgb(231, 228, 228);
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li a:hover {
+  background-color:rgb(28, 94, 91);
+  color: white;
+}
+
+nav ul {
+  display: none;
+}
+
+nav ul.open {
+  display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+/* Date style */
+#time {
+  background-color: #FFAD69;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+ .indexbody, .freshbody, .aboutbody {
+ display: grid;
+ grid-template-columns: 1fr;
+ 
+} 
+.index, .fresh, .about {
+  display: grid;
+  column-gap: 1em;
+  max-width: 100%;
+} 
+.abouth1 {
+  margin-left: 5%;
+}
+
+/*info container style*/
+
+body {
+    background-color: #FFAD69;
+}
+
+.vegcontainer,
+.fruitcontainer, .cabcontainer {
+  border:solid 2px #9C3848;
+  max-width: 100%;   
+  margin: 10px;
+  padding: .5rem;
+  background-color: #F5E663;
+}
+.vegimg, .vegp {
+  display: grid;
+  justify-content: center;
+ text-align: center;
+}
+
+.orderinfo {
+  margin-top: 30px;
+  border: solid 2px  rgb(13, 38, 95);
+  padding: .5rem;
+  background-color: #F5E663;
+}
+
+
+.fruith2, .vegh2, .cabh2 {
+ text-align:center;
+ margin:-1px 0 0 0;
+ padding: 1rem;
+ width: 90.5%;
+}
+.infoh2 {
+  background-color: black;
+  background-color: #9C3848;
+  color: white;
+  padding: 1rem;
+  margin:-1px 0 0 0;
+}
+.userName {
+  font-size: 1.17em;
+}
+
+/* weather style */
+.weather, .forecastinfo, 
+.forecastinfo3 {
+  border: solid 2px rgb(13, 38, 95);
+  background-color: #F5E663;
+  text-align: center;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  justify-content: center;
+}
+.forecastinfo3 {
+  margin-right: 15px; 
+  margin-left: 15px;
+}
+.weather {
+  margin-left: 15px;
+  margin-right: 15px; 
+}
+.forecastinfo, .forecastinfo3 {
+  padding-top: 27px;
+  margin-left: 10px;
+  
+}
+
+ 
+figure {
+  margin:0;
+}
+.temptxt {
+  margin: 2px;
+}
+.f1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.f2 {
+  margin-top: 10px;
+}
+/* smoothie styles*/
+.freshbutton {
+background-color: rgb(13, 38, 95);
+font-size: 1.5rem;
+color: white;
+padding: 0.75rem 1.5rem;
+margin: 0 0 2rem 1.5rem;
+border: none;
+border-radius: 15px;
+}
+
+.freshbutton:hover {
+    background-color:rgb(17, 69, 84);
+    color: white;
+  }
+
+.smoothie {
+  border: solid 2px rgb(13, 38, 95);
+  background-color: #F5E663;
+  border-radius: 15px;
+  text-align: center;
+  padding: 1rem;
+  margin: 15px 9px;
+}
+ /* footer styles*/
+ footer {
+  background-color: #9C3848;
+  width: 100%;
+  height: 100%;
+  color: #eee;     
+  display: flex;
+  margin: 0;
+  flex-direction: column;      
+  align-items: center;
+
+}
+
+.section_footer {
+display: flex;
+flex-direction: column;      
+align-items: center;    
+}
+
+#logo_footer {
+  margin: 2% 0 0 0;
+  max-width: 90px;
+  padding-top: 5%;
+}
+
+.footer_bar {
+  text-align: center;
+  font-size: 0.5rem;
+  
+}
+
+.footer_bar h3 {
+  padding-top: 12px;
+  border-top: 1px solid rgb(255, 255, 255);
+
+}
+
+.footer_chamber h2 {
+  text-align: center;
+  letter-spacing: 1pt;
+  margin: 5%;
+  font-size: 2rem;
+  font-family: 'IBM Plex Serif', serif;
+
+}
+
+.footer_chamber h3 {
+  text-align: center;
+  margin-top: 0;
+  font-size: .6rem;
+  font-family:  Roboto, sans-serif;
+}
+
+.footer_chamber p {
+  padding: 0 10%;
+  text-align: center;
+  font-size: 0.6rem;
+  font-family:  Roboto, sans-serif;
+
+}
+
+#placeholder {
+  max-width: 16px;
+}
+
+.contact_info {
+  text-align: center;
+}
+
+.contact_info p {
+  
+  margin: 1.5% 0;
+  font-size: 0.5rem;
+  font-family:  Roboto, sans-serif;
+}
+
+
+.contact_info a {
+  font-size: 0.5rem;
+  font-family:  Roboto, sans-serif;
+text-decoration: none;
+color: #eee;
+}
+
+.contact_info a:hover {
+  color: #bbb891;
+}
+
+/* form style */
+form {
+  padding: 5% 0;
+}
+form fieldset {
+  margin: auto;
+  border: 1px solid black;
+  background-color: #F5E663;
+  
+  max-width: 80%;
+  border-radius: 10px;
+  padding: 0.5rem 5%;
+}
+form legend {
+  color: #00244c;
+  margin: 0 ;
+  padding: 0 0.5rem;
+}
+form label.top {
+  display: block;
+  padding-top: 1rem;
+  color:#00244c;
+  font-size: 15px;
+  font-size: 0.8rem;
+}
+form label.top input,
+textarea {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #00244c;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color:  rgb(2, 20, 36);
+  width: 90%;
+  max-width: 20rem;
+  background-color: aliceblue;
+
+}
+.submitBtn {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#txt {
+  margin-top: 15px;
+  margin-bottom: 37px;
+}
+.orderinfo {
+  margin-bottom: 37px;
+  margin-top: 45px;
+  max-width: 90%;
+  margin-left: 9px;
+}
+ /* about page style */
+ .about {
+  display: grid;
+  grid-gap: 1rem; 
+ }
+
+ .abouth2 {
+  text-align: center;
+ }
+ .historicalinfo {  
+  border: solid 2px black;
+  background-color: #F5E663;
+  margin: auto;
+  margin-bottom: 10%;
+  padding: .8rem;
+  width: 80%; 
+ }
+ .historyp {
+  line-height: 1.7rem;
+ }
+ .contactinfo {
+  border: solid 2px black;
+  background-color: #F5E663;
+  margin: auto;
+  padding: 4% 0;
+  width: 60%;
+  text-align: center;
+}
+.aboutthanks {
+   border: solid 2px rgb(13, 38, 95);
+   background-color: rgba(35, 109, 138, 0.622);
+   text-align:center;
+   margin: .5rem;
+   width: 64%;
+   height: 102%;
+   margin-left: 17%;
+}
+.map {
+  margin-top: 7px;
+  width: 60%;  
+}
+iframe {
+  width: 100%;
+   margin-left: 35%;
+   height: 100%;
+} 
+.resource {
+  margin-left: 35px;
+}

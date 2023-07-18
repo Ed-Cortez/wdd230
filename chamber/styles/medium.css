@@ -231,26 +231,27 @@
 
 
     .footer_bar {
-        font-size: .8rem;
+        font-size: .5rem;
     }
 
+    .footer_chamber p {
+        font-size: 0.5rem;
+      }
 
-    .contact_info{
+    .contact_info {
         display: flex;
         flex-direction: column;
         justify-content: center;
         grid-column: 3/5;
-
+ 
     }
 
     .contact_info p {
-       font-size: 0.9rem;
-       margin: 0;
-       
+       font-size: 0.5rem;
     }
 
     .contact_info a {
-        font-size: 1rem;
+        font-size: 0.5rem;
 
     }
 

@@ -1,5 +1,3 @@
-
-
 function toggleMenu () {
     document.getElementById("primaryNav").classList.toggle("open");
     document.getElementById("hamburgerBtn").classList.toggle("open");
@@ -13,7 +11,7 @@ x.onclick = toggleMenu;
 /* CURRENT DATE */
 
 // select the DOM elements to manipulate (we will output to these)
-const datefield = document.querySelector("time");
+const datefield = document.querySelector("#time");
 // for european/family history format with day first.
 const datefieldUK = document.querySelector("aside");
 const datemessage = document.querySelector("p");
@@ -29,7 +27,6 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 // "full" or long, medium, short options ... try them
 
 datefield.textContent = fulldate;
-datemessage.innerHTML = `Today is <strong>${fulldate}</strong>. What are you going to do?`;
 
 
 /* LAST UPDATE DATE */
@@ -47,25 +44,6 @@ try {
 } catch (e) {
 	alert("Date not displayed, the browser may not support it");
 }
-
-
-
-
-// Banner showing only Mondays and Tuesdays
-const banner = document.getElementById("banner");
-
-const today = new Date().getDay();
-
-if (today === 1 || today === 2) {
-  banner.style.display = "block";
-} else {
-  banner.style.display = "none";
-}
-
-
-
-
-
 
 
 

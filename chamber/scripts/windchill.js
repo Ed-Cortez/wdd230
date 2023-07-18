@@ -23,6 +23,7 @@ async function apiFetch() {
 }
 
 
+
 function displayResults(weatherData){
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
     windSpeed.innerHTML = weatherData.wind.speed.toFixed(0);
